@@ -5,13 +5,13 @@ date: 2022-10-24
 type: landing
 
 sections:
-  - block: people
+  - block: people_v2
     content:
-      title: Meet the Team
+      title: People
       # Choose which groups/teams of users to display.
       #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
       user_groups:
-          - Principal Investigators
+          - Professors
           - Researchers
           - Grad Students
           - Administration
@@ -22,5 +22,5 @@ sections:
     design:
       show_interests: false
       show_role: true
-      show_social: true
+      show_social: false
 ---

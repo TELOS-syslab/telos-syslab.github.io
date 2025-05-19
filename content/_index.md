@@ -8,73 +8,30 @@ sections:
   - block: hero
     content:
       title: |
-        Wowchemy
-        Research Group
+        TELOS System Lab
       image:
-        filename: welcome.jpg
+        filename: icon.png
       text: |
         <br>
         
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
-  
-  - block: collection
-    content:
-      title: Latest News
-      subtitle:
-      text:
-      count: 5
-      filters:
-        author: ''
-        category: ''
-        exclude_featured: false
-        publication_type: ''
-        tag: ''
-      offset: 0
-      order: desc
-      page_type: post
-    design:
-      view: card
-      columns: '1'
-  
-  - block: markdown
-    content:
-      title:
-      subtitle: ''
-      text:
-    design:
-      columns: '1'
-      background:
-        image: 
-          filename: coders.jpg
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
+        The **TELOS System Lab** conducts research in all aspects of computer systems, with a primary focus on operating systems, storage systems, formal verification, dependable computing, concurrency, software/hardware co-design, and systems for machine learning.
 
-  - block: collection
+  - block: people_v2
     content:
-      title: Latest Preprints
-      text: ""
-      count: 5
-      filters:
-        folders:
-          - publication
-        publication_type: 'article'
+      title: People
+      # Choose which groups/teams of users to display.
+      #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
+      user_groups:
+          - Professors
+          - Researchers
+          - Grad Students
+          - Administration
+          - Visitors
+          - Alumni
+      sort_by: Params.last_name
+      sort_ascending: true
     design:
-      view: citation
-      columns: '1'
-
-  - block: markdown
-    content:
-      title:
-      subtitle:
-      text: |
-        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
-    design:
-      columns: '1'
+      show_interests: false
+      show_role: false
+      show_social: false
 ---
