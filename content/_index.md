@@ -34,4 +34,13 @@ sections:
       show_interests: false
       show_role: false
       show_social: false
+  
+  - block: collection
+    content:
+      title: Publications
+      filters:
+        folders:
+          - publication
+      sort_by: 'Date'
+
 ---
