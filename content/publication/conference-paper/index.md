@@ -46,7 +46,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://zouyonghao.github.io/assets/paper/ndss25-distfuzz.pdf'
+url_pdf: 'https://www.ndss-symposium.org/wp-content/uploads/2025-1912-paper.pdf'
 url_code: 'https://github.com/zouyonghao/DistFuzz'
 url_dataset: ''
 url_poster: ''
