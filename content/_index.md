@@ -24,7 +24,7 @@ sections:
       user_groups:
           - Professors
           - Researchers
-          - Grad Students
+          - Graduate Students
           - Administration
           - Visitors
           - Alumni
