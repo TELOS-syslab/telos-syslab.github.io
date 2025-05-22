@@ -21,7 +21,7 @@ authors:
 #   - 'Equal contribution'
 
 date: '2025-03-01T00:00:00Z'
-doi: '10.1109/HPCA61900.2025.00042'
+doi: ''
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2025-01-01T00:00:00Z'
@@ -55,7 +55,7 @@ url_code: 'https://github.com/TELOS-syslab/Pivot'
 url_dataset: ''
 url_poster: ''
 url_project: ''
-url_slides: ''
+url_slides: 'https://docs.google.com/presentation/d/19nnzYN8JHE2vD87sTfi1julO1rqcuFPIi8itXlXlwFQ/edit?usp=sharing'
 url_source: ''
 url_video: ''
 
