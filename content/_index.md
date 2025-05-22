@@ -15,9 +15,9 @@ sections:
         <br>
         
         The **TELOS System Lab** conducts research in all aspects of computer systems, with a primary focus on operating systems, storage systems, formal verification, dependable computing, concurrency, software/hardware co-design, and systems for machine learning.
-    design:
-      background:
-        color: '#f44336'
+    # design:
+    #   background:
+    #     color: '#f44336'
 
   - block: people_v2
     content:
