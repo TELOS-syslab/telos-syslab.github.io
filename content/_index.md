@@ -14,14 +14,14 @@ sections:
       text: |
         <br>
         
-        The **TELOS System Lab** conducts research in all aspects of computer systems, with a primary focus on operating systems, storage systems, formal verification, dependable computing, concurrency, software/hardware co-design, and systems for machine learning.
+        At the Telos Systems lab, we study the [telos](https://en.wikipedia.org/wiki/Telos) of computer systems. Our goal is to produce **T**op-notch, **E**verlasting, and **L**uminous research in **O**perating **S**ystems.
     # design:
     #   background:
     #     color: '#f44336'
 
   - block: people_v2
     content:
-      title: People
+      title: Software stack
       # Choose which groups/teams of users to display.
       #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
       user_groups:
@@ -40,7 +40,7 @@ sections:
   
   - block: collection
     content:
-      title: Publications
+      title: I/O outputs
       filters:
         folders:
           - publication
