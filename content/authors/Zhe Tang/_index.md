@@ -10,7 +10,7 @@ last_name: Tang
 superuser: true
 
 # Role/position
-role: Graduate Student
+role: Ph.D Student
 
 # homepage: https://zhou-diyu.github.io # If you do not want to use the internal homepage, set this to your external homepage
 

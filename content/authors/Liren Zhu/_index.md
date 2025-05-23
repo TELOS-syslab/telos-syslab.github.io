@@ -10,7 +10,7 @@ last_name: Zhu
 superuser: true
 
 # Role/position
-role: Graduate Students
+role: Ph.D Student
 
 homepage: https://pku-zlr.github.io # If you do not want to use the internal homepage, set this to your external homepage
 

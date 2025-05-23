@@ -10,7 +10,7 @@ last_name: Hu
 superuser: true
 
 # Role/position
-role: Graduate Students
+role: Ph.D Student
 
 # homepage:  # If you do not want to use the internal homepage, set this to your external homepage
 
