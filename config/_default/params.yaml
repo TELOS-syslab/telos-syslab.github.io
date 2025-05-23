@@ -45,7 +45,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} TELOS. This work is licensed under {license}'
+    notice: '© {year} TELOS. This work is licensed under {license} and made by TELOS, especially by Yonghao Zou, Jianqiang Zeng, and Yiming Yao.'
     license:
       enable: true
       allow_derivatives: false
