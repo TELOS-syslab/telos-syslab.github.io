@@ -17,7 +17,7 @@ role: Ph.D Student
 # Organizations/Affiliations
 organizations:
   - name: Peking University
-    url: ''
+    url: 'https://www.pku.edu.cn/'
 
 # # Short bio (displayed in user profile at end of posts)
 # bio: My research interests include distributed robotics, mobile computing and programmable matter.
@@ -63,7 +63,7 @@ organizations:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ''
+email: 'tangzh@stu.pku.edu.cn'
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
