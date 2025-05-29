@@ -19,6 +19,18 @@ main:
   - name: I/O outputs
     url: publication
     weight: 50
-  # - name: Contact
-  #   url: contact
-  #   weight: 60
+  - name: Scheduled tasks
+    url: tasks
+    weight: 60
+  - name: Physical address
+    url: contact
+    weight: 70
+  - name: File system
+    url: file_system
+    weight: 80
+  - name: Networking connection
+    url: network
+    weight: 90
+  - name: Sower supply
+    url: funding
+    weight: 100
