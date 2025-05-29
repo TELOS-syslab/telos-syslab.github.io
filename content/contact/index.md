@@ -20,8 +20,8 @@ sections:
         country: China
         country_code: US
       coordinates:
-        latitude: '40.176722'
-        longitude: '116.162727'
+        latitude: '40.176246'
+        longitude: '116.161006'
       directions: Enter the Computer Science Building and take the elevator to office 201 on the 2nd floor
       # office_hours:
       #   - 'Monday 10:00 to 13:00'
