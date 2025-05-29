@@ -71,6 +71,6 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Professors
+  # - Professors
 ---
 Zhenlin Wang received his BS degree in 1992 and MS degree in 1995 both in Computer Science and from Peking University, China. He received his PhD in Computer Science in 2004 from the University of Massachusetts, Amherst. He joined the Department of Computer Science at Michigan Technological University as an assistant professor in 2003, became an associate professor in 2009, and was promoted to a full professor in 2015. His research interests are broadly in the areas of compilers, operating systems and computer architecture with a focus on memory system optimization and system virtualization. He is a recipient of NSF career award.
