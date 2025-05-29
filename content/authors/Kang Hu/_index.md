@@ -19,6 +19,11 @@ organizations:
   - name: Peking University
     url: ''
 
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: 'mailto:huk@stu.pku.edu.cn'
+
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: 'huk@stu.pku.edu.cn'
 
