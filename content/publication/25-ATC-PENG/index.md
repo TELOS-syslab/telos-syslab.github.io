@@ -12,7 +12,7 @@ authors:
   - Chengjun Chen
   - Jianfeng Jiang
   - Jinyi Xian
-  - Yinwei Luo
+  - Yingwei Luo
   - Xiaolin Wang
   - Chenren Xu
   - Diyu Zhou
