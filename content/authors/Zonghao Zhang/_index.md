@@ -10,7 +10,7 @@ last_name: Zhang
 superuser: true
 
 # Role/position
-role: Master's Student
+role: Master Student
 
 # homepage: https://zouyonghao.github.io/ # If you do not want to use the internal homepage, set this to your external homepage
 
@@ -71,7 +71,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Graduate Students
+  - Service processes #Graduate Students
 ---
 <!-- 
 Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.

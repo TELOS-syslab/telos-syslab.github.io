@@ -71,7 +71,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Professors
+  - Microkernels # Professors
 ---
 Wang, Xiaolin is a professor in the School of Computer Science. He obtained his B.Sc. and Ph.D. from Peking University in 1996 and 2001 respectively. His research interests include system virtualization and cloud computing.
 

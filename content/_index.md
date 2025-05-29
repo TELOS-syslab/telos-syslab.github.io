@@ -8,7 +8,7 @@ sections:
   - block: hero
     content:
       title: |
-        TELOS System Lab
+        TELOS Systems Lab
       image:
         filename: icon.png
       text: |
@@ -25,17 +25,17 @@ sections:
       # Choose which groups/teams of users to display.
       #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
       user_groups:
-          - Professors
+          - Microkernels # Professors
           - Researchers
-          - Graduate Students
-          - Administration
+          - Service processes # Graduate Students
+          - Systemd # Administration
           - Visitors
           - Alumni
       sort_by: Params.last_name
       sort_ascending: true
     design:
       show_interests: false
-      show_role: false
+      show_role: true
       show_social: false
   
   - block: collection

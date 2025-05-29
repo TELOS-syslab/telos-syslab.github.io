@@ -71,7 +71,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Professors
+  - Microkernels # Professors
 ---
 Luo, Yingwei is a professor in the School of Computer Science, and has served as the Vice Director of Institute of Network Computing and Information Systems since 2016. He obtained his BS from Zhejiang University in 1993, MS and PhD from Peking University in 1996 and 1999 respectively. His research interests include system virtualization, cloud computing, locality theory and memory system optimization.
 

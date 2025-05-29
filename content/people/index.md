@@ -11,10 +11,10 @@ sections:
       # Choose which groups/teams of users to display.
       #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
       user_groups:
-          - Professors
+          - Microkernels # Professors
           - Researchers
-          - Graduate Students
-          - Administration
+          - Service processes # Graduate Students
+          - Systemd # Administration
           - Visitors
           - Alumni
       sort_by: Params.last_name
