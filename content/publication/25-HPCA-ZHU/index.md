@@ -50,7 +50,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://ieeexplore.ieee.org/document/10946736'
+url_pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10946736'
 url_code: 'https://github.com/TELOS-syslab/Pivot'
 url_dataset: ''
 url_poster: ''
