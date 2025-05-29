@@ -31,6 +31,6 @@ main:
   - name: Networking connection
     url: network
     weight: 90
-  - name: Sower supply
+  - name: Power supply
     url: funding
     weight: 100
