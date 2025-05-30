@@ -1,0 +1,20 @@
+{{ $item := .item }}
+{{ $has_attachments := partial "functions/has_attachments" $item }}
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  {{/* Custom Style with Conference/Journal Name First */}}
+  {{ if $item.Params.publication_short }}
+    <strong>{{ $item.Params.publication_short | markdownify }}</strong>.
+  {{ else if $item.Params.publication }}
+    <strong>{{ $item.Params.publication | markdownify }}</strong>.
+  {{ end }}
+  <span class="article-metadata li-cite-author">
+    {{ partial "page_metadata_authors" $item }}
+  </span>
+  ({{- $item.Date.Format "2006" -}}).
+  <a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a>.
+  
+  <p>{{ partial "page_links" (dict "page" $item "is_list" 1) }}</p>
+</div> 
