@@ -7,18 +7,34 @@ type: landing
 sections:
   - block: contact
     content:
-      title: Physical address
-      # text: |-
-      #   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus augue non tempor egestas. Proin nisl nunc, dignissim in accumsan dapibus, auctor ullamcorper neque. Quisque at elit felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget elementum odio. Cras interdum eget risus sit amet aliquet. In volutpat, nisl ut fringilla dignissim, arcu nisl suscipit ante, at accumsan sapien nisl eu eros.
-      # email: test@example.org
-      # phone: 888 888 88 88
+      title: NUMA 0
+      email: contact@telos.top
+      address:
+        street: 5 Yiheyuan Rd
+        city: Haidian District, Beijing
+        postcode: '100871'
+        country: China
+        country_code: CN
+      coordinates:
+        # 39.989762, 116.307381
+        latitude: '39.989762'
+        longitude: '116.307381'
+        # 理科1号楼1336
+      directions: Enter the Science Building (1) and take the elevator to office 1336 on the 3rd floor
+      autolink: true
+    design:
+      columns: '1'
+
+  - block: contact_v2
+    content:
+      title: NUMA 1
       address:
         street: New Changping Campus, Shenniu Rd
         city: Machikou, Changping District, Beijing
         # region: CA
         postcode: '102205'
         country: China
-        country_code: US
+        country_code: CN
       coordinates:
         latitude: '40.176246'
         longitude: '116.161006'
@@ -47,23 +63,4 @@ sections:
     design:
       columns: '1'
 
-  # - block: markdown
-  #   content:
-  #     title:
-  #     subtitle: ''
-  #     text:
-  #   design:
-  #     columns: '1'
-  #     background:
-  #       image: 
-  #         filename: contact.jpg
-  #         filters:
-  #           brightness: 1
-  #         parallax: false
-  #         position: center
-  #         size: cover
-  #         text_color_light: true
-  #     spacing:
-  #       padding: ['20px', '0', '20px', '0']
-  #     css_class: fullscreen
 ---

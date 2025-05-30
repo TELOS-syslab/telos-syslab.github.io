@@ -50,10 +50,10 @@ sections:
     content:
       title: Interrupts
       text: |
-        **Jan 2025** - We are excited to welcome Liheng, Xiangcan and Yonghao to the TELOS Systems Lab as new PhD students!
+        **Jan 2025** - We are excited to welcome Liheng, Xiangcan, Xiaohe, Yonghao and Zhongwang to the TELOS Systems Lab as new PhD students!
 
-        **Nov 2024** - Pivot is accepted to HPCA 2025! Congratulations to Liren!
+        **Nov 2024** - Pivot is accepted to HPCA 2025! Congratulations to Liren and all!
 
-        **Sep 2024** - DistFuzz is accepted to NDSS 2025! Congratulations to Yonghao!
+        **Sep 2024** - DistFuzz is accepted to NDSS 2025! Congratulations to Yonghao and all!
 
 ---
