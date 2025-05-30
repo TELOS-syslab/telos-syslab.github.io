@@ -1,6 +1,6 @@
 ---
 publication: "*Computing Research Repository*"
-publication_short: "CORR"
+publication_short: "In CORR"
 title: "FHPM: Fine-grained Huge Page Management For Virtualization"
 
 authors:
