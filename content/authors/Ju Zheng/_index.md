@@ -73,4 +73,3 @@ highlight_name: false
 user_groups:
   - Systemd # Administration
 ---
-(temporary blank)
