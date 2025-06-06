@@ -13,6 +13,6 @@ We organize TELOS talks, inviting speakers from inside and outside the lab to sh
 
 * 2025-06-13: **Rust in Depth** (Junyang)
 
-* 2025-06-06: **Introduction to ML Sys** (Zehua)
+* 2025-06-06: **Introduction to ML Sys** (Zehua) [Slides](./talks_slides/ML-intro.pptx)
 
 * 2025-05-22: **Introduction to Fuzzing** (Yonghao) [Slides](./talks_slides/TELOS%20Talks%20-%20Fuzzing.pdf)
