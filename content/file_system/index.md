@@ -7,29 +7,51 @@ share: false
 profile: false
 ---
 
+# Research Artifacts
+
 Our code repository is hosted on [GitHub](https://github.com/TELOS-syslab).
+
+
+
+# TELOS talks
 
 We organize TELOS talks, inviting speakers from inside and outside the lab to share their research and insights. The conducted and scheduled talks are listed below:
 
-* 2025-06-13: **Rust in Depth** (Junyang)
+## 2025-06-13: Rust in Depth
 
-* 2025-06-06: **Introduction to ML Sys** (Zehua) [Slides](./talks_slides/ML-intro.pptx)
+By Junyang Zhang
 
-  <div class="img-row">
-    <img src="./pics/1_ML-intro/1.png" alt="Slide 1" class="img-entry">
-    <img src="./pics/1_ML-intro/2.png" alt="Slide 2" class="img-entry">
-  </div>
-  <div class="img-row">
-    <img src="./pics/1_ML-intro/3.jpg" alt="Slide 3" class="img-entry">
-    <img src="./pics/1_ML-intro/4.jpg" alt="Slide 4" class="img-entry">
-  </div>
+[Slides](./talks_slides/250613-lunch-session.pdf)
 
-* 2025-05-22: **Introduction to Fuzzing** (Yonghao) [Slides](./talks_slides/TELOS%20Talks%20-%20Fuzzing.pdf)
 
-  <div class="img-row">
-    <img src="./pics/0_Fuzzing/1.png" alt="Slide 1" class="img-entry">
-    <img src="./pics/0_Fuzzing/2.png" alt="Slide 2" class="img-entry">
-  </div>
+
+## 2025-06-06: Introduction to ML Sys
+
+By Zehua Yang
+
+[Slides](./talks_slides/ML-intro.pptx)
+
+<div class="img-row">
+  <img src="./pics/1_ML-intro/1.png" alt="Slide 1" class="img-entry">
+  <img src="./pics/1_ML-intro/2.png" alt="Slide 2" class="img-entry">
+</div>
+<div class="img-row">
+  <img src="./pics/1_ML-intro/3.jpg" alt="Slide 3" class="img-entry">
+  <img src="./pics/1_ML-intro/4.jpg" alt="Slide 4" class="img-entry">
+</div>
+
+
+
+## 2025-05-22: Introduction to Fuzzing
+
+By Yonghao Zou
+
+[Slides](./talks_slides/TELOS%20Talks%20-%20Fuzzing.pdf)
+
+<div class="img-row">
+  <img src="./pics/0_Fuzzing/1.png" alt="Slide 1" class="img-entry">
+  <img src="./pics/0_Fuzzing/2.png" alt="Slide 2" class="img-entry">
+</div>
 
 <style>
 .img-row {
