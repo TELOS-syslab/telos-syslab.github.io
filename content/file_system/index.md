@@ -7,17 +7,21 @@ share: false
 profile: false
 ---
 
-# Research Artifacts
+## Research Artifacts
 
 Our code repository is hosted on [GitHub](https://github.com/TELOS-syslab).
 
 
 
-# TELOS talks
+## TELOS talks
 
 We organize TELOS talks, inviting speakers from inside and outside the lab to share their research and insights. The conducted and scheduled talks are listed below:
 
-## 2025-06-13: Rust in Depth
+### 2025-06-27: Scheduler
+
+by Zonghao Zhang
+
+### 2025-06-13: Rust in Depth
 
 By Junyang Zhang
 
@@ -34,7 +38,7 @@ By Junyang Zhang
 
 
 
-## 2025-06-06: Introduction to ML Sys
+### 2025-06-06: Introduction to ML Sys
 
 By Zehua Yang
 
@@ -51,7 +55,7 @@ By Zehua Yang
 
 
 
-## 2025-05-22: Introduction to Fuzzing
+### 2025-05-22: Introduction to Fuzzing
 
 By Yonghao Zou
 
