@@ -76,9 +76,13 @@ By Yonghao Zou
 .img-row {
   display: flex;
   gap: 10px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  margin-bottom: 5px;
 }
 .img-entry {
   width: auto;
   height: 200px;
+  flex-shrink: 0;
 }
 </style>
