@@ -24,9 +24,13 @@ by Zonghao Zhang
 [Slides](./talks_slides/004-Scheduler.pdf)
 
 <div class="img-row">
-  <img src="./pics/003-Scheduler/1.jpg" alt="Slide 1" class="img-entry">
-  <img src="./pics/003-Scheduler/2.jpg" alt="Slide 2" class="img-entry">
+  <img src="./pics/003-Scheduler/1.png" alt="Slide 1" class="img-entry">
+  <img src="./pics/003-Scheduler/2.png" alt="Slide 2" class="img-entry">
+</div>
+<div class="img-row">
   <img src="./pics/003-Scheduler/3.jpg" alt="Slide 3" class="img-entry">
+  <img src="./pics/003-Scheduler/4.jpg" alt="Slide 4" class="img-entry">
+  <img src="./pics/003-Scheduler/5.jpg" alt="Slide 5" class="img-entry">
 </div>
 
 ### 2025-06-13: Rust in Depth
