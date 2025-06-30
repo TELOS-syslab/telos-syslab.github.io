@@ -21,6 +21,8 @@ We organize TELOS talks, inviting speakers from inside and outside the lab to sh
 
 by Zonghao Zhang
 
+[Slides](./talks_slides/004-Scheduler.pdf)
+
 <div class="img-row">
   <img src="./pics/003-Scheduler/1.jpg" alt="Slide 1" class="img-entry">
   <img src="./pics/003-Scheduler/2.jpg" alt="Slide 2" class="img-entry">
