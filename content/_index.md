@@ -50,6 +50,8 @@ sections:
     content:
       title: Interrupts
       text: |
+        **Jul 2025** - Aeolia and CortenMM are accepted to SOSP 2025! Congratulations to Chuandong, Junyang and all!
+
         **Jan 2025** - We are excited to welcome Liheng, Xiangcan, Xiaohe, Yonghao and Zhongwang to the TELOS Systems Lab as new PhD students!
 
         **Nov 2024** - Pivot is accepted to HPCA 2025! Congratulations to Liren and all!
