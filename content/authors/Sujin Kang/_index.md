@@ -46,7 +46,7 @@ organizations:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:diyu.zhou@pku.edu.cn'
+    link: 'mailto:sujin_kang@outlook.com'
 #   - icon: twitter
 #     icon_pack: fab
 #     link: https://twitter.com/GeorgeCushen
