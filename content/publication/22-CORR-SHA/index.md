@@ -20,7 +20,7 @@ publishDate: "2022-09-01T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Computing Research Repository"
+publication: "In *Computing Research Repository*"
 publication_short: "CoRR"
 
 abstract: 'The memory demand of virtual machines (VMs) is increasing, while DRAM has limited capacity and high power consumption. Non-volatile memory (NVM) is an alternative to DRAM, but it has high latency and low bandwidth. We observe that the VM with heterogeneous memory may incur up to a 1.5× slowdown compared to a DRAM VM, if not managed well. However, none of the state-of-the-art heterogeneous memory management designs are customized for virtualization on a real system.

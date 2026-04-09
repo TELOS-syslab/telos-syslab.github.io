@@ -19,7 +19,7 @@ publishDate: "2021-02-01T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*ACM Transactions on Storage*"
+publication: "In *ACM Transactions on Storage*"
 publication_short: "TOS"
 
 abstract: 'Due to large data volume and low latency requirements of modern web services, the use of an in-memory key-value (KV) cache often becomes an inevitable choice (e.g., Redis and Memcached). The in-memory cache holds hot data, reduces request latency, and alleviates the load on background databases. Inheriting from the traditional hardware cache design, many existing KV cache systems still use recency-based cache replacement algorithms, e.g., least recently used or its approximations. However, the diversity of miss penalty distinguishes a KV cache from a hardware cache. Inadequate consideration of penalty can substantially compromise space utilization and request service time. KV accesses also demonstrate locality, which needs to be coordinated with miss penalty to guide cache management.
