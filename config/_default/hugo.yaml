@@ -20,6 +20,7 @@ removePathAccents: true
 ############################
 
 enableGitInfo: false
+buildFuture: true
 summaryLength: 30
 pagination:
   pagerSize: 10
