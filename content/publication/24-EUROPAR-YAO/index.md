@@ -1,4 +1,4 @@
----
+﻿---
 title: 'EKRM: Efficient Key-Value Retrieval Method to Reduce Data Lookup Overhead for Redis'
 
 # Authors
@@ -31,9 +31,9 @@ publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
 publication: In *European Conference on Parallel and Distributed Processing*
-publication_short: In *Euro-Par 2024*
+publication_short: "Euro-Par 24"
 
-abstract: 'As an open-source key-value system, Redis has been widely used in internet service stations. A key-value lookup in Redis usually involves several chained memory accesses, and the address translation overhead can significantly increase the lookup latency. This paper introduces a new software-based approach that can reduce chained memory accesses and total address translation overhead of lookup requests by placing key-value entries in a specially managed memory space organized as huge pages with a fast hash table and enabling a fast lookup approach with simple hash functions, while keeping the integrity of Redis data structure. The new approach brings up to 1.38×
+abstract: 'As an open-source key-value system, Redis has been widely used in internet service stations. A key-value lookup in Redis usually involves several chained memory accesses, and the address translation overhead can significantly increase the lookup latency. This paper introduces a new software-based approach that can reduce chained memory accesses and total address translation overhead of lookup requests by placing key-value entries in a specially managed memory space organized as huge pages with a fast hash table and enabling a fast lookup approach with simple hash functions, while keeping the integrity of Redis data structure. The new approach brings up to 1.38脳
  average speedup for the key-value retrieval process, and significantly reduces misses in TLB and last-level cache. It outperforms SLB, an address caching software approach and has match the performance to STLT, a software-hardware co-designed address-centric design.'
 
 # Summary. An optional shortened abstract.

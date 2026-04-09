@@ -1,4 +1,4 @@
----
+﻿---
 title: 'Asterinas: A Linux ABI-Compatible, Rust-Based Framekernel OS with a Small and Sound TCB'
 
 # Authors
@@ -37,9 +37,9 @@ publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
 publication: In *2025 USENIX Annual Techinical Conference*
-publication_short: In *USENIX ATC 25*
+publication_short: "USENIX ATC 25"
 
-abstract: How can one build a feature-rich, Rust-based operating system (OS) with a minimal and sound Trusted Computing Base (TCB) for memory safety? Existing Rust-based OSes fall short due to their improper usage of unsafe Rust in kernel development. To address these challenges, we propose a novel framekernel architecture that leverages Rust’s memory safety features to enable intra-kernel privilege separation, ensuring TCB minimality and soundness. We present OSTD, a streamlined framework for safe Rust OS development, and Asterinas, a Linux ABI-compatible framekernel OS implemented entirely in safe Rust using OSTD. Supporting over 180 Linux system calls, Asterinas delivers performance on par with Linux, while maintaining a memory safe TCB of just 10K lines of code—about 17% of its total codebase. These results underscore the practicality and benefits of the framekernel architecture in building safe and efficient OSes
+abstract: How can one build a feature-rich, Rust-based operating system (OS) with a minimal and sound Trusted Computing Base (TCB) for memory safety? Existing Rust-based OSes fall short due to their improper usage of unsafe Rust in kernel development. To address these challenges, we propose a novel framekernel architecture that leverages Rust鈥檚 memory safety features to enable intra-kernel privilege separation, ensuring TCB minimality and soundness. We present OSTD, a streamlined framework for safe Rust OS development, and Asterinas, a Linux ABI-compatible framekernel OS implemented entirely in safe Rust using OSTD. Supporting over 180 Linux system calls, Asterinas delivers performance on par with Linux, while maintaining a memory safe TCB of just 10K lines of code鈥攁bout 17% of its total codebase. These results underscore the practicality and benefits of the framekernel architecture in building safe and efficient OSes
 
 # Summary. An optional shortened abstract.
 summary: A new Rust OS architecture that acheives both memory safety, efficiency and Linux compatibility.

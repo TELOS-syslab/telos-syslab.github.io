@@ -1,0 +1,51 @@
+{{/* Hugo Blox: Publication V2 */}}
+{{/* Initialise */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+
+{{ $query := where site.RegularPages "Section" "publication" }}
+{{ $query = sort $query "Date" "desc" }}
+
+<div class="row justify-content-center publication-v2-widget">
+  {{ with $block.content.title }}
+    <div class="section-heading col-12 mb-3 text-center">
+      <h1 class="mb-0">{{ . | markdownify | emojify }}</h1>
+      {{ with $block.content.subtitle }}<p class="mt-1">{{ . | markdownify | emojify }}</p>{{ end }}
+    </div>
+  {{ end }}
+
+  <div class="col-12 col-lg-11">
+    <div class="table-responsive">
+      <table class="table publication-v2-table align-middle">
+        <thead>
+          <tr>
+            <th class="publication-v2-venue-header" scope="col">Conference / Journal</th>
+            <th scope="col">Publication</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{ range $query }}
+            {{ $venue := "N/A" }}
+            {{ if .Params.publication_short }}
+              {{ $venue = .Params.publication_short }}
+            {{ else if .Params.publication }}
+              {{ $venue = .Params.publication }}
+            {{ end }}
+            <tr>
+              <td class="publication-v2-venue"><strong>{{ $venue | markdownify }}</strong></td>
+              <td>
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a><br>
+                {{ with .Params.publication }}
+                  <div class="publication-v2-publine">{{ . | markdownify }}</div>
+                {{ end }}
+                <span class="article-metadata li-cite-author">{{ partial "page_metadata_authors" . }}</span>
+                ({{- .Date.Format "2006" -}})
+                <div class="publication-v2-links">{{ partial "page_links" (dict "page" . "is_list" 1) }}</div>
+              </td>
+            </tr>
+          {{ end }}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

@@ -1,4 +1,4 @@
----
+﻿---
 title: 'FLORIA: A Fast and Featherlight Approach for Predicting Cache Performance'
 
 # Authors
@@ -29,7 +29,7 @@ publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
 publication: In *European Conference on Computer Systems (EuroSys)*
-publication_short: In *EuroSys 23*
+publication_short: "EuroSys 23"
 
 abstract: 'The cache Miss Ratio Curve (MRC) serves a variety of purposes such as cache partitioning, application profiling and code tuning. In this work, we propose a new metric, called cache miss distribution, that describes cache miss behavior over cache sets, for predicting cache MRCs. Based on this metric, we present FLORIA, a software-based, online approach that approximates cache MRCs on commodity systems. By polluting a tunable number of cache lines in some selected cache sets using our designed microbenchmark, the cache miss distribution for the target workload is obtained via hardware performance counters with the support of precise event based sampling (PEBS). A model is developed to predict the MRC of the target workload based on its cache miss distribution.
 We evaluate FLORIA for systems consisting of a single application as well as a wide range of different workload mixes. Compared with the state-of-the-art approaches in predicting online MRCs, FLORIA achieves the highest average accuracy of 97.29% with negligible overhead. It also allows fast and accurate estimation of online MRC within 5ms, 20X faster than the state-of-the-art approaches. We also demonstrate that FLORIA can be applied to guiding cache partitioning for multiprogrammed workloads, helping to improve overall system performance.'

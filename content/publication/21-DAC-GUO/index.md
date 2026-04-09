@@ -1,4 +1,4 @@
----
+﻿---
 title: 'GRAPHSPY: Fused Program Semantic Embedding through Graph Neural Networks for Memory Efficiency'
 
 # Authors
@@ -28,7 +28,7 @@ publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
 publication: In *ACM/IEEE Design Automation Conference*
-publication_short: In *DAC 21*
+publication_short: "DAC 21"
 
 abstract: 'Production software oftentimes suffers from unnecessary
 memory inefficiencies caused by inappropriate use of data structures,
