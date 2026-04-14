@@ -10,7 +10,7 @@ last_name: Ye
 superuser: false
 
 # Role/position
-role: Graduated Ph.D Student
+role: Ph.D
 
 homepage: https://yezhisheng.me # If you do not want to use the internal homepage, set this to your external homepage
 
