@@ -16,7 +16,7 @@ sections:
           - Service processes # Graduate Students
           - Systemd # Administration
           - Visitors
-          - Terminated processses # Alumni
+          - Terminated processes # Alumni
           # - Networking connection # Collaborators
       sort_by: Params.last_name
       sort_ascending: true
