@@ -17,7 +17,7 @@ sections:
           - Systemd # Administration
           - Visitors
           - Terminated processes # Alumni
-          # - Networking connection # Collaborators
+          - Networking connection # Collaborators
       sort_by: Params.last_name
       sort_ascending: true
     design:

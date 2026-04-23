@@ -28,9 +28,9 @@ main:
   - name: File system
     url: file_system
     weight: 80
-  - name: Networking connection
-    url: network
-    weight: 90
+  # - name: Networking connection
+  #   url: network
+  #   weight: 90
   - name: Power supply
     url: funding
     weight: 100
