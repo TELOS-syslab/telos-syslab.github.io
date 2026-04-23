@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hongliang Tian | TELOS Systems Lab</title>
+    <link>http://localhost:1313/author/hongliang-tian/</link>
+      <atom:link href="http://localhost:1313/author/hongliang-tian/index.xml" rel="self" type="application/rss+xml" />
+    <description>Hongliang Tian</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 20 May 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_326a71a61e0c10db.png</url>
+      <title>Hongliang Tian</title>
+      <link>http://localhost:1313/author/hongliang-tian/</link>
+    </image>
+    
+    <item>
+      <title>Asterinas: A Linux ABI-Compatible, Rust-Based Framekernel OS with a Small and Sound TCB</title>
+      <link>http://localhost:1313/publication/25-atc-peng/</link>
+      <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/25-atc-peng/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CortenMM: Efficient Memory Management with Strong Correctness Guarantees</title>
+      <link>http://localhost:1313/publication/25-sosp-zhang/</link>
+      <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/25-sosp-zhang/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

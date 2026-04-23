@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zonghao Zhang | TELOS Systems Lab</title>
+    <link>http://localhost:1313/author/zonghao-zhang/</link>
+      <atom:link href="http://localhost:1313/author/zonghao-zhang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Zonghao Zhang</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/author/zonghao-zhang/avatar_hu_21f9d2874fdc7840.jpg</url>
+      <title>Zonghao Zhang</title>
+      <link>http://localhost:1313/author/zonghao-zhang/</link>
+    </image>
+    
+    <item>
+      <title>Aeolia: A Fast and Secure Userspace Interrupt-Based Storage Stack</title>
+      <link>http://localhost:1313/publication/25-sosp-li/</link>
+      <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/25-sosp-li/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

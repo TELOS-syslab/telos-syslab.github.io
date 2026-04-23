@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zu-Ming Jiang | TELOS Systems Lab</title>
+    <link>http://localhost:1313/author/zu-ming-jiang/</link>
+      <atom:link href="http://localhost:1313/author/zu-ming-jiang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Zu-Ming Jiang</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_326a71a61e0c10db.png</url>
+      <title>Zu-Ming Jiang</title>
+      <link>http://localhost:1313/author/zu-ming-jiang/</link>
+    </image>
+    
+    <item>
+      <title>Blackbox Fuzzing of Distributed Systems with Multi-Dimensional Inputs and Symmetry-Based Feedback Pruning</title>
+      <link>http://localhost:1313/publication/25-ndss-zou/</link>
+      <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/25-ndss-zou/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

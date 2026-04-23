@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Huchao Mo | TELOS Systems Lab</title>
+    <link>http://localhost:1313/author/huchao-mo/</link>
+      <atom:link href="http://localhost:1313/author/huchao-mo/index.xml" rel="self" type="application/rss+xml" />
+    <description>Huchao Mo</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language>
+    <image>
+      <url>http://localhost:1313/author/huchao-mo/avatar_hu_7b37edbb67eebc08.jpg</url>
+      <title>Huchao Mo</title>
+      <link>http://localhost:1313/author/huchao-mo/</link>
+    </image>
+    
+  </channel>
+</rss>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Liren Zhu | TELOS Systems Lab</title>
+    <link>http://localhost:1313/author/liren-zhu/</link>
+      <atom:link href="http://localhost:1313/author/liren-zhu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Liren Zhu</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 26 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/author/liren-zhu/avatar_hu_ebe681114c63aa86.png</url>
+      <title>Liren Zhu</title>
+      <link>http://localhost:1313/author/liren-zhu/</link>
+    </image>
+    
+    <item>
+      <title>Cachence: Fine-Grained Cache Partitioning in Both Time and Space</title>
+      <link>http://localhost:1313/publication/26-dac-li/</link>
+      <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/26-dac-li/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Criticality-Aware Instruction-Centric Bandwidth Partitioning for Data Center Applications</title>
+      <link>http://localhost:1313/publication/25-hpca-zhu/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/25-hpca-zhu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>EKRM: Efficient Key-Value Retrieval Method to Reduce Data Lookup Overhead for Redis</title>
+      <link>http://localhost:1313/publication/24-europar-yao/</link>
+      <pubDate>Mon, 26 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/24-europar-yao/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

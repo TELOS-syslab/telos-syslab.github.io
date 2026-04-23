@@ -1,5 +1,7 @@
 source "https://rubygems.org"
 
+gem "base64"
+gem "bigdecimal"
 gem "kramdown"
 gem "kramdown-parser-gfm"
 gem "rouge"

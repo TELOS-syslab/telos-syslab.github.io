@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jun Xiao | TELOS Systems Lab</title>
+    <link>http://localhost:1313/author/jun-xiao/</link>
+      <atom:link href="http://localhost:1313/author/jun-xiao/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jun Xiao</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 08 May 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_326a71a61e0c10db.png</url>
+      <title>Jun Xiao</title>
+      <link>http://localhost:1313/author/jun-xiao/</link>
+    </image>
+    
+    <item>
+      <title>FLORIA: A Fast and Featherlight Approach for Predicting Cache Performance</title>
+      <link>http://localhost:1313/publication/23-ics-xiao/</link>
+      <pubDate>Mon, 08 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/23-ics-xiao/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

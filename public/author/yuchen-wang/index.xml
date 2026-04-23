@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yuchen Wang | TELOS Systems Lab</title>
+    <link>http://localhost:1313/author/yuchen-wang/</link>
+      <atom:link href="http://localhost:1313/author/yuchen-wang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yuchen Wang</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_326a71a61e0c10db.png</url>
+      <title>Yuchen Wang</title>
+      <link>http://localhost:1313/author/yuchen-wang/</link>
+    </image>
+    
+    <item>
+      <title>Multi-Tenant In-memory Key-Value Cache Partitioning Using Efficient Random Sampling-Based LRU Model</title>
+      <link>http://localhost:1313/publication/23-tcc-wang/</link>
+      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/23-tcc-wang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient Modeling of Random Sampling-Based LRU</title>
+      <link>http://localhost:1313/publication/21-icpp-yang/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/21-icpp-yang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamically Configuring LRU Replacement Policy in Redis</title>
+      <link>http://localhost:1313/publication/20-memsys-wang/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/20-memsys-wang/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

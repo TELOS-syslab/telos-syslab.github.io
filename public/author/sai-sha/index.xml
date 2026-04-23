@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sai Sha | TELOS Systems Lab</title>
+    <link>http://localhost:1313/author/sai-sha/</link>
+      <atom:link href="http://localhost:1313/author/sai-sha/index.xml" rel="self" type="application/rss+xml" />
+    <description>Sai Sha</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 10 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_326a71a61e0c10db.png</url>
+      <title>Sai Sha</title>
+      <link>http://localhost:1313/author/sai-sha/</link>
+    </image>
+    
+    <item>
+      <title>Taming Hot Bloat Under Virtualization with HUGESCOPE</title>
+      <link>http://localhost:1313/publication/24-atc-li/</link>
+      <pubDate>Wed, 10 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/24-atc-li/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hardware-Software Collaborative Tiered-Memory Management Framework for Virtualization</title>
+      <link>http://localhost:1313/publication/24-tocs-sha/</link>
+      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/24-tocs-sha/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FHPM: Fine-grained Huge Page Management For Virtualization</title>
+      <link>http://localhost:1313/publication/23-corr-li/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/23-corr-li/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vTMM: Tiered Memory Management for Virtual Machines</title>
+      <link>http://localhost:1313/publication/23-eurosys-sha/</link>
+      <pubDate>Mon, 08 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/23-eurosys-sha/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HMM-V: Heterogeneous Memory Management for Virtualization</title>
+      <link>http://localhost:1313/publication/22-corr-sha/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/22-corr-sha/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Accelerating Address Translation for Virtualization by Leveraging Hardware Mode</title>
+      <link>http://localhost:1313/publication/22-ieee-sha/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/22-ieee-sha/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Swift shadow paging (SSP): no write-protection but following TLB flushing</title>
+      <link>http://localhost:1313/publication/21-vee-sha/</link>
+      <pubDate>Fri, 16 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/21-vee-sha/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Huge Page Friendly Virtualized Memory Management</title>
+      <link>http://localhost:1313/publication/20-jct-sha/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/20-jct-sha/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

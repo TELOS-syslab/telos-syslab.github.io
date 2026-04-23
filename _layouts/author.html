@@ -2,67 +2,112 @@
 layout: page
 ---
 
-<div class="staff">
-  {% if page.photo %}
-    <img class="img-rounded" src="{{ page.photo }}" alt="{{ author.display_name }}">
-  {% else %}
-    <img class="img-rounded" src="/assets/img/user.jpg" alt="{{ author.display_name }}">
+<style>
+.author-profile { max-width: 800px; margin: 0 auto; padding: 2rem 1rem; }
+.author-header { display: flex; gap: 2rem; align-items: flex-start; margin-bottom: 2rem; flex-wrap: wrap; }
+.author-avatar-wrap { width: 220px; height: 220px; border-radius: 50%; overflow: hidden; flex-shrink: 0; position: relative; }
+.author-avatar-wrap img { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 30%; display: block; padding: 0; margin: 0; border-radius: 0; }
+.author-info { flex: 1; }
+.author-info h1 { margin: 0 0 0.3rem; font-size: 1.8rem; }
+.author-info .author-position { font-size: 1.1rem; color: #999; margin: 0 0 0.2rem; font-style: italic; }
+.author-info .author-org { margin: 0 0 0.4rem; }
+.author-info .author-org a { color: #e74c3c; text-decoration: none; font-size: 0.95rem; }
+.author-info .author-org a:hover { text-decoration: underline; }
+.author-links { display: flex; gap: 0.8rem; margin-top: 0.8rem; flex-wrap: wrap; }
+.author-links a { display: inline-block; padding: 0.35rem 0.7rem; border-radius: 4px; font-size: 1.3rem; text-decoration: none; border: 1px solid #e74c3c; color: #e74c3c; line-height: 1; }
+.author-links a:hover { background: #e74c3c; color: #fff; }
+.author-bio { line-height: 1.8; font-size: 0.98rem; border-top: 1px solid #2a2a2a; padding-top: 1.5rem; }
+.author-bio p { margin-bottom: 1rem; }
+.author-latest { margin-top: 2rem; border-top: 1px solid #2a2a2a; padding-top: 1.5rem; }
+.author-latest h2 { font-size: 1.2rem; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1rem; }
+.pub-table { width: 100%; border-collapse: collapse; }
+.pub-table tr { border-bottom: 1px solid #2a2a2a; }
+.pub-table td { padding: 0.75rem 0.5rem; vertical-align: top; font-size: 0.9rem; }
+.pub-venue { width: 120px; font-weight: 700; color: #e74c3c; white-space: nowrap; }
+.pub-info a { color: inherit; text-decoration: none; font-weight: 600; }
+.pub-info a:hover { color: #e74c3c; }
+.pub-authors { font-size: 0.8rem; color: #999; margin-top: 0.25rem; }
+</style>
+
+<div class="author-profile">
+  <div class="author-header">
+    <div class="author-avatar-wrap">
+      {% if page.photo %}
+        <img src="{{ page.photo }}" alt="{{ page.display_name }}">
+      {% else %}
+        <img src="/assets/img/user.jpg" alt="{{ page.display_name }}">
+      {% endif %}
+    </div>
+
+    <div class="author-info">
+      <h1>{{ page.display_name }}</h1>
+      {% if page.position %}<p class="author-position">{{ page.position }}</p>{% endif %}
+      {% if page.organization %}
+        <p class="author-org">
+          {% if page.organization_url %}
+            <a href="{{ page.organization_url }}" target="_blank">{{ page.organization }}</a>
+          {% else %}
+            {{ page.organization }}
+          {% endif %}
+        </p>
+      {% endif %}
+      <div class="author-links">
+        {% if page.email %}
+          <a href="mailto:{{ page.email }}" title="{{ page.email }}">✉</a>
+        {% endif %}
+        {% if page.homepage %}
+          <a href="{{ page.homepage }}" target="_blank">🔗 Homepage</a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+  {% if page.content and page.content != "" %}
+  <div class="author-bio">
+    {{ content }}
+  </div>
   {% endif %}
 
-  <h1 class="name">{{ page.display_name }}</h1>
-
-  {% if page.position %}
-    <h2 class="position">{{ page.position }}</h2>
-  {% endif %}
-
-  <p>{{ page.bio }}</p>
-
-  <h2>Posts</h2>
-
-  <ul>
-    {% assign filtered_posts = site.posts | where: 'author', page.name | where_exp:"post","post.is_generated != true" %}
-    {% for post in filtered_posts %}
-      <li>
-        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-      </li>
+  {% assign author_pubs = "" | split: "" %}
+  {% for pub in site.data.publications %}
+    {% for a in pub.authors %}
+      {% assign a_clean = a | strip %}
+      {% if a_clean == page.display_name %}
+        {% assign author_pubs = author_pubs | push: pub %}
+        {% break %}
+      {% endif %}
     {% endfor %}
-  </ul>
-</div>
+  {% endfor %}
 
-{% assign author_urls = '' %}
-{% if page.github_username %}
-    {% assign author_urls = author_urls | append: '"https://github.com/' | append: page.github_username | append: '",' %}
-{% endif %}
-{% if page.facebook_username %}
-    {% assign author_urls = author_urls | append: '"https://www.facebook.com/' | append: page.facebook_username | append: '",' %}
-{% endif %}
-{% if page.twitter_username %}
-    {% assign author_urls = author_urls | append: '"https://twitter.com/' | append: page.twitter_username | append: '",' %}
-{% endif %}
-{% if page.medium_username %}
-    {% assign author_urls = author_urls | append: '"https://medium.com/@' | append: page.medium_username | append: '",' %}
-{% endif %}
-{% if page.instagram_username %}
-    {% assign author_urls = author_urls | append: '"https://www.instagram.com/' | append: page.instagram_username | append: '",' %}
-{% endif %}
-{% if page.linkedin_username %}
-    {% assign author_urls = author_urls | append: '"https://www.linkedin.com/in/' | append: page.linkedin_username | append: '",' %}
-{% endif %}
+  {% if author_pubs.size > 0 %}
+  <div class="author-latest">
+    <h2>Latest</h2>
+    <table class="pub-table">
+      {% for pub in author_pubs %}
+      <tr>
+        <td class="pub-venue">{{ pub.venue }}</td>
+        <td class="pub-info">
+          {% if pub.url_pdf and pub.url_pdf != "" %}
+            <a href="{{ pub.url_pdf }}" target="_blank">{{ pub.title }}</a>
+          {% else %}
+            {{ pub.title }}
+          {% endif %}
+          <div class="pub-authors">{{ pub.authors | join: ", " }} ({{ pub.year }})</div>
+        </td>
+      </tr>
+      {% endfor %}
+    </table>
+  </div>
+  {% endif %}
+</div>
 
 <script type="application/ld+json">
 {
     "@context": "http://schema.org",
     "@type": "Person",
     "name": "{{ page.display_name }}",
-    {% if page.photo %}
-    "image": "{{ page.photo }}",
-    {% else %}
-    "image": {{ "/assets/img/user.jpg" | prepend: site.baseurl | prepend: site.url }},
-    {% endif %}
+    "image": "{{ page.photo | default: '/assets/img/user.jpg' }}",
     "jobTitle": "{{ page.position }}",
-    "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
-    "sameAs": [
-      {{ author_urls | split: "," | join: "," }}
-    ]
+    "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}"
 }
 </script>

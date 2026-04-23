@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Diyu Zhou | TELOS Systems Lab</title>
+    <link>http://localhost:1313/author/diyu-zhou/</link>
+      <atom:link href="http://localhost:1313/author/diyu-zhou/index.xml" rel="self" type="application/rss+xml" />
+    <description>Diyu Zhou</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 26 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/author/diyu-zhou/avatar_hu_cccd23d910254979.jpg</url>
+      <title>Diyu Zhou</title>
+      <link>http://localhost:1313/author/diyu-zhou/</link>
+    </image>
+    
+    <item>
+      <title>Cachence: Fine-Grained Cache Partitioning in Both Time and Space</title>
+      <link>http://localhost:1313/publication/26-dac-li/</link>
+      <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/26-dac-li/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Asterinas: A Linux ABI-Compatible, Rust-Based Framekernel OS with a Small and Sound TCB</title>
+      <link>http://localhost:1313/publication/25-atc-peng/</link>
+      <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/25-atc-peng/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Criticality-Aware Instruction-Centric Bandwidth Partitioning for Data Center Applications</title>
+      <link>http://localhost:1313/publication/25-hpca-zhu/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/25-hpca-zhu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Aeolia: A Fast and Secure Userspace Interrupt-Based Storage Stack</title>
+      <link>http://localhost:1313/publication/25-sosp-li/</link>
+      <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/25-sosp-li/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blackbox Fuzzing of Distributed Systems with Multi-Dimensional Inputs and Symmetry-Based Feedback Pruning</title>
+      <link>http://localhost:1313/publication/25-ndss-zou/</link>
+      <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/25-ndss-zou/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CortenMM: Efficient Memory Management with Strong Correctness Guarantees</title>
+      <link>http://localhost:1313/publication/25-sosp-zhang/</link>
+      <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/25-sosp-zhang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ginkgo: A Learned Index Enhanced Tiered Memory System</title>
+      <link>http://localhost:1313/publication/25-ieee-yang/</link>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/25-ieee-yang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>EKRM: Efficient Key-Value Retrieval Method to Reduce Data Lookup Overhead for Redis</title>
+      <link>http://localhost:1313/publication/24-europar-yao/</link>
+      <pubDate>Mon, 26 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/24-europar-yao/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Taming Hot Bloat Under Virtualization with HUGESCOPE</title>
+      <link>http://localhost:1313/publication/24-atc-li/</link>
+      <pubDate>Wed, 10 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/24-atc-li/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

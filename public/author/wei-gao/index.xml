@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wei Gao | TELOS Systems Lab</title>
+    <link>http://localhost:1313/author/wei-gao/</link>
+      <atom:link href="http://localhost:1313/author/wei-gao/index.xml" rel="self" type="application/rss+xml" />
+    <description>Wei Gao</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_326a71a61e0c10db.png</url>
+      <title>Wei Gao</title>
+      <link>http://localhost:1313/author/wei-gao/</link>
+    </image>
+    
+    <item>
+      <title>Astraea: A Fair Deep Learning Scheduler for Multi-Tenant GPU Clusters</title>
+      <link>http://localhost:1313/publication/22-tpds-ye/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/22-tpds-ye/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

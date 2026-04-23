@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xiong Wei | TELOS Systems Lab</title>
+    <link>http://localhost:1313/author/xiong-wei/</link>
+      <atom:link href="http://localhost:1313/author/xiong-wei/index.xml" rel="self" type="application/rss+xml" />
+    <description>Xiong Wei</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 23 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_326a71a61e0c10db.png</url>
+      <title>Xiong Wei</title>
+      <link>http://localhost:1313/author/xiong-wei/</link>
+    </image>
+    
+    <item>
+      <title>Tear Up the Bubble Boom: Lessons Learned From a Deep Learning Research and Development Cluster</title>
+      <link>http://localhost:1313/publication/22-iccd-yang/</link>
+      <pubDate>Sun, 23 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/22-iccd-yang/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yangqing Zeng | TELOS Systems Lab</title>
+    <link>http://localhost:1313/author/yangqing-zeng/</link>
+      <atom:link href="http://localhost:1313/author/yangqing-zeng/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yangqing Zeng</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 10 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/author/yangqing-zeng/avatar_hu_4232e10856570a06.jpg</url>
+      <title>Yangqing Zeng</title>
+      <link>http://localhost:1313/author/yangqing-zeng/</link>
+    </image>
+    
+    <item>
+      <title>Taming Hot Bloat Under Virtualization with HUGESCOPE</title>
+      <link>http://localhost:1313/publication/24-atc-li/</link>
+      <pubDate>Wed, 10 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/24-atc-li/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FHPM: Fine-grained Huge Page Management For Virtualization</title>
+      <link>http://localhost:1313/publication/23-corr-li/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/23-corr-li/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

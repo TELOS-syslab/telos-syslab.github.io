@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dehong Ma | TELOS Systems Lab</title>
+    <link>http://localhost:1313/author/dehong-ma/</link>
+      <atom:link href="http://localhost:1313/author/dehong-ma/index.xml" rel="self" type="application/rss+xml" />
+    <description>Dehong Ma</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 23 May 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_326a71a61e0c10db.png</url>
+      <title>Dehong Ma</title>
+      <link>http://localhost:1313/author/dehong-ma/</link>
+    </image>
+    
+    <item>
+      <title>A Question-Oriented Propagation Network for News Reading Comprehension.</title>
+      <link>http://localhost:1313/publication/22-icassp-wen/</link>
+      <pubDate>Mon, 23 May 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/22-icassp-wen/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

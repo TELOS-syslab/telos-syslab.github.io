@@ -1,25 +1,29 @@
 # Site Settings
-name: Jekflix
-title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by
-  Thiago Rossener.
+name: TELOS Systems Lab
+title: TELOS Systems Lab
+description: TELOS Systems Lab at Peking University — research in operating systems, memory systems, and computer architecture.
 tags:
-  - blog
-  - template
-  - jekyll
-  - theme
-  - netlify
+  - systems
+  - os
+  - memory
+  - research
 show_hero: true
 menu:
   - title: Home
     url: /
-  - title: About
-    url: /about
-  - title: Contact
+  - title: Software stack
+    url: /people
+  - title: I/O outputs
+    url: /publications
+  - title: Scheduled tasks
+    url: /tasks
+  - title: Physical address
     url: /contact
-  - title: Feed
-    url: /feed.xml
-email: youremail@test.com
+  - title: File system
+    url: /filesystem
+  - title: Power supply
+    url: /funding
+email: youremail@pku.edu.cn
 # See: https://disqus.com/
 disqus_username: disqus_username
 # Contact Form Setting
@@ -46,7 +50,7 @@ two_columns_layout: true
 
 # Advanced Settings
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: "https://telos-syslab.github.io"
 google_analytics: "UA-XXXXXXXX-X"
 language: "en"
 categories_folder: category

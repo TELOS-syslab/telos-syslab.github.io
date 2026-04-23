@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xiaolin Wang | TELOS Systems Lab</title>
+    <link>http://localhost:1313/author/xiaolin-wang/</link>
+      <atom:link href="http://localhost:1313/author/xiaolin-wang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Xiaolin Wang</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 26 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/author/xiaolin-wang/avatar_hu_491b50b2da6120e5.jpg</url>
+      <title>Xiaolin Wang</title>
+      <link>http://localhost:1313/author/xiaolin-wang/</link>
+    </image>
+    
+    <item>
+      <title>Cachence: Fine-Grained Cache Partitioning in Both Time and Space</title>
+      <link>http://localhost:1313/publication/26-dac-li/</link>
+      <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/26-dac-li/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Asterinas: A Linux ABI-Compatible, Rust-Based Framekernel OS with a Small and Sound TCB</title>
+      <link>http://localhost:1313/publication/25-atc-peng/</link>
+      <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/25-atc-peng/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Criticality-Aware Instruction-Centric Bandwidth Partitioning for Data Center Applications</title>
+      <link>http://localhost:1313/publication/25-hpca-zhu/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/25-hpca-zhu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Aeolia: A Fast and Secure Userspace Interrupt-Based Storage Stack</title>
+      <link>http://localhost:1313/publication/25-sosp-li/</link>
+      <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/25-sosp-li/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CortenMM: Efficient Memory Management with Strong Correctness Guarantees</title>
+      <link>http://localhost:1313/publication/25-sosp-zhang/</link>
+      <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/25-sosp-zhang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ginkgo: A Learned Index Enhanced Tiered Memory System</title>
+      <link>http://localhost:1313/publication/25-ieee-yang/</link>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/25-ieee-yang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>EKRM: Efficient Key-Value Retrieval Method to Reduce Data Lookup Overhead for Redis</title>
+      <link>http://localhost:1313/publication/24-europar-yao/</link>
+      <pubDate>Mon, 26 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/24-europar-yao/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Taming Hot Bloat Under Virtualization with HUGESCOPE</title>
+      <link>http://localhost:1313/publication/24-atc-li/</link>
+      <pubDate>Wed, 10 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/24-atc-li/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hardware-Software Collaborative Tiered-Memory Management Framework for Virtualization</title>
+      <link>http://localhost:1313/publication/24-tocs-sha/</link>
+      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/24-tocs-sha/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FHPM: Fine-grained Huge Page Management For Virtualization</title>
+      <link>http://localhost:1313/publication/23-corr-li/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/23-corr-li/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FLORIA: A Fast and Featherlight Approach for Predicting Cache Performance</title>
+      <link>http://localhost:1313/publication/23-ics-xiao/</link>
+      <pubDate>Mon, 08 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/23-ics-xiao/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vTMM: Tiered Memory Management for Virtual Machines</title>
+      <link>http://localhost:1313/publication/23-eurosys-sha/</link>
+      <pubDate>Mon, 08 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/23-eurosys-sha/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>M3: A Multi-View Fusion and Multi-Decoding Network for Multi-Document Reading Comprehension</title>
+      <link>http://localhost:1313/publication/22-emnlp-wen/</link>
+      <pubDate>Wed, 07 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/22-emnlp-wen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Graph Neural Networks Based Memory Inefficiency Detection Using Selective Sampling</title>
+      <link>http://localhost:1313/publication/22-iccd-li/</link>
+      <pubDate>Sun, 23 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/22-iccd-li/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tear Up the Bubble Boom: Lessons Learned From a Deep Learning Research and Development Cluster</title>
+      <link>http://localhost:1313/publication/22-iccd-yang/</link>
+      <pubDate>Sun, 23 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/22-iccd-yang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Original Content Is All You Need! an Empirical Study on Leveraging Answer Summary for WikiHowQA Answer Selection Task</title>
+      <link>http://localhost:1313/publication/22-coling-wen/</link>
+      <pubDate>Sat, 22 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/22-coling-wen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploring GNN based program embedding technologies for binary related tasks</title>
+      <link>http://localhost:1313/publication/22-icpc-guo/</link>
+      <pubDate>Thu, 20 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/22-icpc-guo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HMM-V: Heterogeneous Memory Management for Virtualization</title>
+      <link>http://localhost:1313/publication/22-corr-sha/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/22-corr-sha/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Question-Oriented Propagation Network for News Reading Comprehension.</title>
+      <link>http://localhost:1313/publication/22-icassp-wen/</link>
+      <pubDate>Mon, 23 May 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/22-icassp-wen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Accelerating Address Translation for Virtualization by Leveraging Hardware Mode</title>
+      <link>http://localhost:1313/publication/22-ieee-sha/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/22-ieee-sha/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Astraea: A Fair Deep Learning Scheduler for Multi-Tenant GPU Clusters</title>
+      <link>http://localhost:1313/publication/22-tpds-ye/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/22-tpds-ye/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GRAPHSPY: Fused Program Semantic Embedding through Graph Neural Networks for Memory Efficiency</title>
+      <link>http://localhost:1313/publication/21-dac-guo/</link>
+      <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/21-dac-guo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Swift shadow paging (SSP): no write-protection but following TLB flushing</title>
+      <link>http://localhost:1313/publication/21-vee-sha/</link>
+      <pubDate>Fri, 16 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/21-vee-sha/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Penalty- and Locality-aware Memory Allocation in Redis Using Enhanced AET</title>
+      <link>http://localhost:1313/publication/21-tos-pan/</link>
+      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/21-tos-pan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GRAPHSPY: Fused Program Semantic-Level Embedding via Graph Neural Networks for Dead Store Detection</title>
+      <link>http://localhost:1313/publication/20-corr-guo/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/20-corr-guo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Huge Page Friendly Virtualized Memory Management</title>
+      <link>http://localhost:1313/publication/20-jct-sha/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/20-jct-sha/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

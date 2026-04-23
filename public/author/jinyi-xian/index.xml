@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jinyi Xian | TELOS Systems Lab</title>
+    <link>http://localhost:1313/author/jinyi-xian/</link>
+      <atom:link href="http://localhost:1313/author/jinyi-xian/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jinyi Xian</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 20 May 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_326a71a61e0c10db.png</url>
+      <title>Jinyi Xian</title>
+      <link>http://localhost:1313/author/jinyi-xian/</link>
+    </image>
+    
+    <item>
+      <title>Asterinas: A Linux ABI-Compatible, Rust-Based Framekernel OS with a Small and Sound TCB</title>
+      <link>http://localhost:1313/publication/25-atc-peng/</link>
+      <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/25-atc-peng/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

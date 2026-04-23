@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chuandong Li | TELOS Systems Lab</title>
+    <link>http://localhost:1313/author/chuandong-li/</link>
+      <atom:link href="http://localhost:1313/author/chuandong-li/index.xml" rel="self" type="application/rss+xml" />
+    <description>Chuandong Li</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/author/chuandong-li/avatar_hu_d461e169ac74d9ea.png</url>
+      <title>Chuandong Li</title>
+      <link>http://localhost:1313/author/chuandong-li/</link>
+    </image>
+    
+    <item>
+      <title>Aeolia: A Fast and Secure Userspace Interrupt-Based Storage Stack</title>
+      <link>http://localhost:1313/publication/25-sosp-li/</link>
+      <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/25-sosp-li/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ginkgo: A Learned Index Enhanced Tiered Memory System</title>
+      <link>http://localhost:1313/publication/25-ieee-yang/</link>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/25-ieee-yang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Taming Hot Bloat Under Virtualization with HUGESCOPE</title>
+      <link>http://localhost:1313/publication/24-atc-li/</link>
+      <pubDate>Wed, 10 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/24-atc-li/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hardware-Software Collaborative Tiered-Memory Management Framework for Virtualization</title>
+      <link>http://localhost:1313/publication/24-tocs-sha/</link>
+      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/24-tocs-sha/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FHPM: Fine-grained Huge Page Management For Virtualization</title>
+      <link>http://localhost:1313/publication/23-corr-li/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/23-corr-li/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vTMM: Tiered Memory Management for Virtual Machines</title>
+      <link>http://localhost:1313/publication/23-eurosys-sha/</link>
+      <pubDate>Mon, 08 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/23-eurosys-sha/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HMM-V: Heterogeneous Memory Management for Virtualization</title>
+      <link>http://localhost:1313/publication/22-corr-sha/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/22-corr-sha/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Accelerating Address Translation for Virtualization by Leveraging Hardware Mode</title>
+      <link>http://localhost:1313/publication/22-ieee-sha/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/22-ieee-sha/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

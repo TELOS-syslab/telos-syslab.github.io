@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pengcheng Li | TELOS Systems Lab</title>
+    <link>http://localhost:1313/author/pengcheng-li/</link>
+      <atom:link href="http://localhost:1313/author/pengcheng-li/index.xml" rel="self" type="application/rss+xml" />
+    <description>Pengcheng Li</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 23 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_326a71a61e0c10db.png</url>
+      <title>Pengcheng Li</title>
+      <link>http://localhost:1313/author/pengcheng-li/</link>
+    </image>
+    
+    <item>
+      <title>Graph Neural Networks Based Memory Inefficiency Detection Using Selective Sampling</title>
+      <link>http://localhost:1313/publication/22-iccd-li/</link>
+      <pubDate>Sun, 23 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/22-iccd-li/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploring GNN based program embedding technologies for binary related tasks</title>
+      <link>http://localhost:1313/publication/22-icpc-guo/</link>
+      <pubDate>Thu, 20 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/22-icpc-guo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GRAPHSPY: Fused Program Semantic Embedding through Graph Neural Networks for Memory Efficiency</title>
+      <link>http://localhost:1313/publication/21-dac-guo/</link>
+      <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/21-dac-guo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GRAPHSPY: Fused Program Semantic-Level Embedding via Graph Neural Networks for Dead Store Detection</title>
+      <link>http://localhost:1313/publication/20-corr-guo/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/20-corr-guo/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

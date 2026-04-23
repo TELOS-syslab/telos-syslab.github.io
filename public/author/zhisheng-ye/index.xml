@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zhisheng Ye | TELOS Systems Lab</title>
+    <link>http://localhost:1313/author/zhisheng-ye/</link>
+      <atom:link href="http://localhost:1313/author/zhisheng-ye/index.xml" rel="self" type="application/rss+xml" />
+    <description>Zhisheng Ye</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 23 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/author/zhisheng-ye/avatar_hu_e3ee2b0f7d66c9c1.jpg</url>
+      <title>Zhisheng Ye</title>
+      <link>http://localhost:1313/author/zhisheng-ye/</link>
+    </image>
+    
+    <item>
+      <title>Tear Up the Bubble Boom: Lessons Learned From a Deep Learning Research and Development Cluster</title>
+      <link>http://localhost:1313/publication/22-iccd-yang/</link>
+      <pubDate>Sun, 23 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/22-iccd-yang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Astraea: A Fair Deep Learning Scheduler for Multi-Tenant GPU Clusters</title>
+      <link>http://localhost:1313/publication/22-tpds-ye/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/22-tpds-ye/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

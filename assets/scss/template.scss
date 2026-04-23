@@ -1,0 +1,42 @@
+// Make page header alignment consistent with widget page header alignment
+.universal-wrapper h1 {
+  text-align: center;
+}
+
+// Center the CTA shortcode button
+.cta-group {
+  justify-content: center;
+}
+
+.publication-v2-table {
+  table-layout: fixed;
+}
+
+.publication-v2-table th,
+.publication-v2-table td {
+  vertical-align: top;
+}
+
+.publication-v2-venue-header,
+.publication-v2-venue {
+  width: 32%;
+}
+
+.publication-v2-venue {
+  font-weight: 700;
+}
+
+.publication-v2-publine {
+  margin: 0.15rem 0;
+}
+
+.publication-v2-links p {
+  margin: 0.4rem 0 0;
+}
+
+@media (max-width: 768px) {
+  .publication-v2-venue-header,
+  .publication-v2-venue {
+    width: 42%;
+  }
+}

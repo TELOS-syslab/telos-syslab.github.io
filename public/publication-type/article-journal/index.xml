@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Article-Journal | TELOS Systems Lab</title>
+    <link>http://localhost:1313/publication-type/article-journal/</link>
+      <atom:link href="http://localhost:1313/publication-type/article-journal/index.xml" rel="self" type="application/rss+xml" />
+    <description>Article-Journal</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 30 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_326a71a61e0c10db.png</url>
+      <title>Article-Journal</title>
+      <link>http://localhost:1313/publication-type/article-journal/</link>
+    </image>
+    
+    <item>
+      <title>Ginkgo: A Learned Index Enhanced Tiered Memory System</title>
+      <link>http://localhost:1313/publication/25-ieee-yang/</link>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/25-ieee-yang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building a High-Performance Graph Storage on Top of Tree-Structured Key-Value Stores</title>
+      <link>http://localhost:1313/publication/24-bdma-lin/</link>
+      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/24-bdma-lin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hardware-Software Collaborative Tiered-Memory Management Framework for Virtualization</title>
+      <link>http://localhost:1313/publication/24-tocs-sha/</link>
+      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/24-tocs-sha/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-Tenant In-memory Key-Value Cache Partitioning Using Efficient Random Sampling-Based LRU Model</title>
+      <link>http://localhost:1313/publication/23-tcc-wang/</link>
+      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/23-tcc-wang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FHPM: Fine-grained Huge Page Management For Virtualization</title>
+      <link>http://localhost:1313/publication/23-corr-li/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/23-corr-li/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HMM-V: Heterogeneous Memory Management for Virtualization</title>
+      <link>http://localhost:1313/publication/22-corr-sha/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/22-corr-sha/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Accelerating Address Translation for Virtualization by Leveraging Hardware Mode</title>
+      <link>http://localhost:1313/publication/22-ieee-sha/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/22-ieee-sha/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Astraea: A Fair Deep Learning Scheduler for Multi-Tenant GPU Clusters</title>
+      <link>http://localhost:1313/publication/22-tpds-ye/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/22-tpds-ye/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Penalty- and Locality-aware Memory Allocation in Redis Using Enhanced AET</title>
+      <link>http://localhost:1313/publication/21-tos-pan/</link>
+      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/21-tos-pan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GRAPHSPY: Fused Program Semantic-Level Embedding via Graph Neural Networks for Dead Store Detection</title>
+      <link>http://localhost:1313/publication/20-corr-guo/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/20-corr-guo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Huge Page Friendly Virtualized Memory Management</title>
+      <link>http://localhost:1313/publication/20-jct-sha/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/20-jct-sha/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An example journal article</title>
+      <link>http://localhost:1313/publication_example/journal-article/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication_example/journal-article/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including &lt;a href=&#34;https://docs.hugoblox.com/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

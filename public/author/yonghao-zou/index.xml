@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yonghao Zou | TELOS Systems Lab</title>
+    <link>http://localhost:1313/author/yonghao-zou/</link>
+      <atom:link href="http://localhost:1313/author/yonghao-zou/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yonghao Zou</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/author/yonghao-zou/avatar_hu_5fd1524054fbc8a1.jpg</url>
+      <title>Yonghao Zou</title>
+      <link>http://localhost:1313/author/yonghao-zou/</link>
+    </image>
+    
+    <item>
+      <title>Blackbox Fuzzing of Distributed Systems with Multi-Dimensional Inputs and Symmetry-Based Feedback Pruning</title>
+      <link>http://localhost:1313/publication/25-ndss-zou/</link>
+      <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/25-ndss-zou/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CortenMM: Efficient Memory Management with Strong Correctness Guarantees</title>
+      <link>http://localhost:1313/publication/25-sosp-zhang/</link>
+      <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/25-sosp-zhang/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

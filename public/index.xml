@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TELOS Systems Lab</title>
+    <link>http://localhost:1313/</link>
+      <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <description>TELOS Systems Lab</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_326a71a61e0c10db.png</url>
+      <title>TELOS Systems Lab</title>
+      <link>http://localhost:1313/</link>
+    </image>
+    
+    <item>
+      <title>Example Event</title>
+      <link>http://localhost:1313/event/example/</link>
+      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/event/example/</guid>
+      <description>&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Wowchemy&amp;rsquo;s &lt;a href=&#34;https://docs.hugoblox.com/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://docs.hugoblox.com/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Further event details, including page elements such as image galleries, can be added to the body of this page.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cachence: Fine-Grained Cache Partitioning in Both Time and Space</title>
+      <link>http://localhost:1313/publication/26-dac-li/</link>
+      <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/26-dac-li/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NSFC重点项目</title>
+      <link>http://localhost:1313/nsfcproject/</link>
+      <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/nsfcproject/</guid>
+      <description>&lt;h2 id=&#34;项目介绍&#34;&gt;项目介绍&lt;/h2&gt;
+&lt;p&gt;本项目为《软件定义的高性能安全异构内存系统结构与技术》（62032001），重点解决异构内存系统在“协同性”“开放性”和“可控性”三个方面的关键科学问题。研究内容涵盖统一局部性理论、异构内存层次协同优化、安全NVM与PIM结构设计、异构设备软件定义方法等，致力于构建支持机器学习、大数据、图计算等新型应用的高效存储系统。通过软硬件协同设计与系统原型验证，项目期望实现存储资源的灵活管理、性能优化与安全保障，推动异构内存系统向更智能、可定制、高性能的方向发展。&lt;/p&gt;
+&lt;h2 id=&#34;论文列表&#34;&gt;论文列表&lt;/h2&gt;
+&lt;h2 id=&#34;获奖&#34;&gt;获奖&lt;/h2&gt;
+&lt;h2 id=&#34;人才培养&#34;&gt;人才培养&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Asterinas: A Linux ABI-Compatible, Rust-Based Framekernel OS with a Small and Sound TCB</title>
+      <link>http://localhost:1313/publication/25-atc-peng/</link>
+      <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/25-atc-peng/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Files, activities, and more</title>
+      <link>http://localhost:1313/file_system/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/file_system/</guid>
+      <description>&lt;h2 id=&#34;research-artifacts&#34;&gt;Research Artifacts&lt;/h2&gt;
+&lt;p&gt;Our code repository is hosted on &lt;a href=&#34;https://github.com/TELOS-syslab&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;telos-talks&#34;&gt;TELOS talks&lt;/h2&gt;
+&lt;p&gt;We organize TELOS talks, inviting speakers from inside and outside the lab to share their research and insights. The conducted and scheduled talks are listed below:&lt;/p&gt;
+&lt;h3 id=&#34;2025-06-27-scheduler&#34;&gt;2025-06-27: Scheduler&lt;/h3&gt;
+&lt;p&gt;by Zonghao Zhang&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;./talks_slides/004-Scheduler.pdf&#34;&gt;Slides&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;img-row&#34;&gt;
+  &lt;img src=&#34;./pics/003-Scheduler/1.png&#34; alt=&#34;Slide 1&#34; class=&#34;img-entry&#34;&gt;
+  &lt;img src=&#34;./pics/003-Scheduler/2.png&#34; alt=&#34;Slide 2&#34; class=&#34;img-entry&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;img-row&#34;&gt;
+  &lt;img src=&#34;./pics/003-Scheduler/3.jpg&#34; alt=&#34;Slide 3&#34; class=&#34;img-entry&#34;&gt;
+  &lt;img src=&#34;./pics/003-Scheduler/4.jpg&#34; alt=&#34;Slide 4&#34; class=&#34;img-entry&#34;&gt;
+  &lt;img src=&#34;./pics/003-Scheduler/5.jpg&#34; alt=&#34;Slide 5&#34; class=&#34;img-entry&#34;&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;2025-06-13-rust-in-depth&#34;&gt;2025-06-13: Rust in Depth&lt;/h3&gt;
+&lt;p&gt;By Junyang Zhang&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;./talks_slides/002-Rust.pdf&#34;&gt;Slides&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;img-row&#34;&gt;
+  &lt;img src=&#34;./pics/002-Rust/1.png&#34; alt=&#34;Slide 1&#34; class=&#34;img-entry&#34;&gt;
+  &lt;img src=&#34;./pics/002-Rust/2.png&#34; alt=&#34;Slide 2&#34; class=&#34;img-entry&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;img-row&#34;&gt;
+  &lt;img src=&#34;./pics/002-Rust/3.jpg&#34; alt=&#34;Slide 3&#34; class=&#34;img-entry&#34;&gt;
+  &lt;img src=&#34;./pics/002-Rust/4.jpg&#34; alt=&#34;Slide 4&#34; class=&#34;img-entry&#34;&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;2025-06-06-introduction-to-ml-sys&#34;&gt;2025-06-06: Introduction to ML Sys&lt;/h3&gt;
+&lt;p&gt;By Zehua Yang&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;./talks_slides/001-ML-intro.pptx&#34;&gt;Slides&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;img-row&#34;&gt;
+  &lt;img src=&#34;./pics/001-ML-intro/1.png&#34; alt=&#34;Slide 1&#34; class=&#34;img-entry&#34;&gt;
+  &lt;img src=&#34;./pics/001-ML-intro/2.png&#34; alt=&#34;Slide 2&#34; class=&#34;img-entry&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;img-row&#34;&gt;
+  &lt;img src=&#34;./pics/001-ML-intro/3.jpg&#34; alt=&#34;Slide 3&#34; class=&#34;img-entry&#34;&gt;
+  &lt;img src=&#34;./pics/001-ML-intro/4.jpg&#34; alt=&#34;Slide 4&#34; class=&#34;img-entry&#34;&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;2025-05-22-introduction-to-fuzzing&#34;&gt;2025-05-22: Introduction to Fuzzing&lt;/h3&gt;
+&lt;p&gt;By Yonghao Zou&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;./talks_slides/000-Fuzzing.pdf&#34;&gt;Slides&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;img-row&#34;&gt;
+  &lt;img src=&#34;./pics/000-Fuzzing/1.png&#34; alt=&#34;Slide 1&#34; class=&#34;img-entry&#34;&gt;
+  &lt;img src=&#34;./pics/000-Fuzzing/2.png&#34; alt=&#34;Slide 2&#34; class=&#34;img-entry&#34;&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.img-row {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  margin-bottom: 5px;
+}
+.img-entry {
+  width: auto;
+  height: 200px;
+  flex-shrink: 0;
+}
+&lt;/style&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Power supply</title>
+      <link>http://localhost:1313/funding/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/funding/</guid>
+      <description>&lt;p&gt;Our lab is grateful for the support from our funding partners and collaborators:&lt;/p&gt;
+&lt;div style=&#34;display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center; gap: 20px; margin-top: 20px; margin-bottom: 20px; padding: 10px; border: 1px solid #eee; border-radius: 8px;&#34;&gt;
+  &lt;div style=&#34;text-align: center; flex: 1; min-width: 150px; margin: 10px;&#34;&gt;
+    &lt;a href=&#34;https://www.nsfc.gov.cn/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
+      &lt;img src=&#34;http://localhost:1313/images/funding/nsfc.png&#34; alt=&#34;National Natural Science Foundation of China (NSFC) Logo&#34; style=&#34;height: 70px; max-width: 100%; object-fit: contain; margin-bottom: 5px;&#34;&gt;
+    &lt;/a&gt;
+    &lt;p style=&#34;font-size: 0.9em; margin-top: 0;&#34;&gt;NSFC&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;text-align: center; flex: 1; min-width: 250px; margin: 10px;&#34;&gt;
+    &lt;div style=&#34;display: flex; justify-content: space-around; align-items: center;&#34;&gt;
+      &lt;div style=&#34;text-align: center; margin: 0 5px;&#34;&gt;
+        &lt;a href=&#34;https://www.alibabagroup.com&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
+          &lt;img src=&#34;http://localhost:1313/images/funding/alibaba.png&#34; alt=&#34;Alibaba Group Logo&#34; style=&#34;height: 70px; max-width: 100%; object-fit: contain; margin-bottom: 5px;&#34;&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+      &lt;div style=&#34;text-align: center; margin: 0 5px;&#34;&gt;
+        &lt;a href=&#34;https://www.antgroup.com&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
+          &lt;img src=&#34;http://localhost:1313/images/funding/ant.png&#34; alt=&#34;Ant Group Logo&#34; style=&#34;height: 70px; max-width: 100%; object-fit: contain; margin-bottom: 5px;&#34;&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;p style=&#34;font-size: 0.9em; margin-top: 5px;&#34;&gt;Alibaba Group &amp; Ant Group&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;text-align: center; flex: 1; min-width: 150px; margin: 10px;&#34;&gt;
+    &lt;a href=&#34;https://www.huawei.com&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
+      &lt;img src=&#34;http://localhost:1313/images/funding/huawei.png&#34; alt=&#34;Huawei Logo&#34; style=&#34;height: 70px; max-width: 100%; object-fit: contain; margin-bottom: 5px;&#34;&gt;
+    &lt;/a&gt;
+    &lt;p style=&#34;font-size: 0.9em; margin-top: 0;&#34;&gt;Huawei&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;We also acknowledge funding from various other projects and sources. If you are interested in collaborating or supporting our research, please &lt;a href=&#34;http://localhost:1313/contact/&#34;&gt;get in touch&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>There will possibly be a spring outing for all TELOS members</title>
+      <link>http://localhost:1313/tasks/25---spring-outing/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tasks/25---spring-outing/</guid>
+      <description>&lt;p&gt;There will possibly be a spring outing for all TELOS members. The destination is still under discussion, but it will be a place with beautiful scenery and rich culture. The travel is expected to take place in months, depending on the weather and travel conditions.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./draw_bing.jpg&#34; alt=&#34;draw_bing&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Criticality-Aware Instruction-Centric Bandwidth Partitioning for Data Center Applications</title>
+      <link>http://localhost:1313/publication/25-hpca-zhu/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/25-hpca-zhu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Aeolia: A Fast and Secure Userspace Interrupt-Based Storage Stack</title>
+      <link>http://localhost:1313/publication/25-sosp-li/</link>
+      <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/25-sosp-li/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blackbox Fuzzing of Distributed Systems with Multi-Dimensional Inputs and Symmetry-Based Feedback Pruning</title>
+      <link>http://localhost:1313/publication/25-ndss-zou/</link>
+      <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/25-ndss-zou/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CortenMM: Efficient Memory Management with Strong Correctness Guarantees</title>
+      <link>http://localhost:1313/publication/25-sosp-zhang/</link>
+      <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/25-sosp-zhang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ginkgo: A Learned Index Enhanced Tiered Memory System</title>
+      <link>http://localhost:1313/publication/25-ieee-yang/</link>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/25-ieee-yang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>EKRM: Efficient Key-Value Retrieval Method to Reduce Data Lookup Overhead for Redis</title>
+      <link>http://localhost:1313/publication/24-europar-yao/</link>
+      <pubDate>Mon, 26 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/24-europar-yao/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Taming Hot Bloat Under Virtualization with HUGESCOPE</title>
+      <link>http://localhost:1313/publication/24-atc-li/</link>
+      <pubDate>Wed, 10 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/24-atc-li/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building a High-Performance Graph Storage on Top of Tree-Structured Key-Value Stores</title>
+      <link>http://localhost:1313/publication/24-bdma-lin/</link>
+      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/24-bdma-lin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hardware-Software Collaborative Tiered-Memory Management Framework for Virtualization</title>
+      <link>http://localhost:1313/publication/24-tocs-sha/</link>
+      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/24-tocs-sha/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-Tenant In-memory Key-Value Cache Partitioning Using Efficient Random Sampling-Based LRU Model</title>
+      <link>http://localhost:1313/publication/23-tcc-wang/</link>
+      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/23-tcc-wang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FHPM: Fine-grained Huge Page Management For Virtualization</title>
+      <link>http://localhost:1313/publication/23-corr-li/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/23-corr-li/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FLORIA: A Fast and Featherlight Approach for Predicting Cache Performance</title>
+      <link>http://localhost:1313/publication/23-ics-xiao/</link>
+      <pubDate>Mon, 08 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/23-ics-xiao/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vTMM: Tiered Memory Management for Virtual Machines</title>
+      <link>http://localhost:1313/publication/23-eurosys-sha/</link>
+      <pubDate>Mon, 08 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/23-eurosys-sha/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>M3: A Multi-View Fusion and Multi-Decoding Network for Multi-Document Reading Comprehension</title>
+      <link>http://localhost:1313/publication/22-emnlp-wen/</link>
+      <pubDate>Wed, 07 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/22-emnlp-wen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>People</title>
+      <link>http://localhost:1313/network/</link>
+      <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/network/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>People</title>
+      <link>http://localhost:1313/people/</link>
+      <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/people/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tour</title>
+      <link>http://localhost:1313/tour/</link>
+      <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tour/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Graph Neural Networks Based Memory Inefficiency Detection Using Selective Sampling</title>
+      <link>http://localhost:1313/publication/22-iccd-li/</link>
+      <pubDate>Sun, 23 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/22-iccd-li/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tear Up the Bubble Boom: Lessons Learned From a Deep Learning Research and Development Cluster</title>
+      <link>http://localhost:1313/publication/22-iccd-yang/</link>
+      <pubDate>Sun, 23 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/22-iccd-yang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Original Content Is All You Need! an Empirical Study on Leveraging Answer Summary for WikiHowQA Answer Selection Task</title>
+      <link>http://localhost:1313/publication/22-coling-wen/</link>
+      <pubDate>Sat, 22 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/22-coling-wen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploring GNN based program embedding technologies for binary related tasks</title>
+      <link>http://localhost:1313/publication/22-icpc-guo/</link>
+      <pubDate>Thu, 20 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/22-icpc-guo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HMM-V: Heterogeneous Memory Management for Virtualization</title>
+      <link>http://localhost:1313/publication/22-corr-sha/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/22-corr-sha/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GSpecPal: Speculation-Centric Finite State Machine Parallelization on GPUs</title>
+      <link>http://localhost:1313/publication/22-ipdps-wang/</link>
+      <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/22-ipdps-wang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Question-Oriented Propagation Network for News Reading Comprehension.</title>
+      <link>http://localhost:1313/publication/22-icassp-wen/</link>
+      <pubDate>Mon, 23 May 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/22-icassp-wen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Accelerating Address Translation for Virtualization by Leveraging Hardware Mode</title>
+      <link>http://localhost:1313/publication/22-ieee-sha/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/22-ieee-sha/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Astraea: A Fair Deep Learning Scheduler for Multi-Tenant GPU Clusters</title>
+      <link>http://localhost:1313/publication/22-tpds-ye/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/22-tpds-ye/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GRAPHSPY: Fused Program Semantic Embedding through Graph Neural Networks for Memory Efficiency</title>
+      <link>http://localhost:1313/publication/21-dac-guo/</link>
+      <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/21-dac-guo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient Modeling of Random Sampling-Based LRU</title>
+      <link>http://localhost:1313/publication/21-icpp-yang/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/21-icpp-yang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Swift shadow paging (SSP): no write-protection but following TLB flushing</title>
+      <link>http://localhost:1313/publication/21-vee-sha/</link>
+      <pubDate>Fri, 16 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/21-vee-sha/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Penalty- and Locality-aware Memory Allocation in Redis Using Enhanced AET</title>
+      <link>http://localhost:1313/publication/21-tos-pan/</link>
+      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/21-tos-pan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jian Yang and Monica Hall Win the Best Paper Award at Wowchemy 2020</title>
+      <link>http://localhost:1313/post/20-12-02-icml-best-paper/</link>
+      <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/20-12-02-icml-best-paper/</guid>
+      <description>&lt;p&gt;Congratulations to Jian Yang and Monica Hall for winning the Best Paper Award at the 2020 Conference on Wowchemy for their paper “Learning Wowchemy”.&lt;/p&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus augue non tempor egestas. Proin nisl nunc, dignissim in accumsan dapibus, auctor ullamcorper neque. Quisque at elit felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget elementum odio. Cras interdum eget risus sit amet aliquet. In volutpat, nisl ut fringilla dignissim, arcu nisl suscipit ante, at accumsan sapien nisl eu eros.&lt;/p&gt;
+&lt;p&gt;Sed eu dui nec ligula bibendum dapibus. Nullam imperdiet auctor tortor, vel cursus mauris malesuada non. Quisque ultrices euismod dapibus. Aenean sed gravida risus. Sed nisi tortor, vulputate nec quam non, placerat porta nisl. Nunc varius lobortis urna, condimentum facilisis ipsum molestie eu. Ut molestie eleifend ligula sed dignissim. Duis ut tellus turpis. Praesent tincidunt, nunc sed congue malesuada, mauris enim maximus massa, eget interdum turpis urna et ante. Morbi sem nisl, cursus quis mollis et, interdum luctus augue. Aliquam laoreet, leo et accumsan tincidunt, libero neque aliquet lectus, a ultricies lorem mi a orci.&lt;/p&gt;
+&lt;p&gt;Mauris dapibus sem vel magna convallis laoreet. Donec in venenatis urna, vitae sodales odio. Praesent tortor diam, varius non luctus nec, bibendum vel est. Quisque id sem enim. Maecenas at est leo. Vestibulum tristique pellentesque ex, blandit placerat nunc eleifend sit amet. Fusce eget lectus bibendum, accumsan mi quis, luctus sem. Etiam vitae nulla scelerisque, eleifend odio in, euismod quam. Etiam porta ullamcorper massa, vitae gravida turpis euismod quis. Mauris sodales sem ac ultrices viverra. In placerat ultrices sapien. Suspendisse eu arcu hendrerit, luctus tortor cursus, maximus dolor. Proin et velit et quam gravida dapibus. Donec blandit justo ut consequat tristique.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Richard Hendricks Wins First Place in the Wowchemy Prize</title>
+      <link>http://localhost:1313/post/20-12-01-wowchemy-prize/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/20-12-01-wowchemy-prize/</guid>
+      <description>&lt;p&gt;Congratulations to Richard Hendricks for winning first place in the Wowchemy Prize.&lt;/p&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus augue non tempor egestas. Proin nisl nunc, dignissim in accumsan dapibus, auctor ullamcorper neque. Quisque at elit felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget elementum odio. Cras interdum eget risus sit amet aliquet. In volutpat, nisl ut fringilla dignissim, arcu nisl suscipit ante, at accumsan sapien nisl eu eros.&lt;/p&gt;
+&lt;p&gt;Sed eu dui nec ligula bibendum dapibus. Nullam imperdiet auctor tortor, vel cursus mauris malesuada non. Quisque ultrices euismod dapibus. Aenean sed gravida risus. Sed nisi tortor, vulputate nec quam non, placerat porta nisl. Nunc varius lobortis urna, condimentum facilisis ipsum molestie eu. Ut molestie eleifend ligula sed dignissim. Duis ut tellus turpis. Praesent tincidunt, nunc sed congue malesuada, mauris enim maximus massa, eget interdum turpis urna et ante. Morbi sem nisl, cursus quis mollis et, interdum luctus augue. Aliquam laoreet, leo et accumsan tincidunt, libero neque aliquet lectus, a ultricies lorem mi a orci.&lt;/p&gt;
+&lt;p&gt;Mauris dapibus sem vel magna convallis laoreet. Donec in venenatis urna, vitae sodales odio. Praesent tortor diam, varius non luctus nec, bibendum vel est. Quisque id sem enim. Maecenas at est leo. Vestibulum tristique pellentesque ex, blandit placerat nunc eleifend sit amet. Fusce eget lectus bibendum, accumsan mi quis, luctus sem. Etiam vitae nulla scelerisque, eleifend odio in, euismod quam. Etiam porta ullamcorper massa, vitae gravida turpis euismod quis. Mauris sodales sem ac ultrices viverra. In placerat ultrices sapien. Suspendisse eu arcu hendrerit, luctus tortor cursus, maximus dolor. Proin et velit et quam gravida dapibus. Donec blandit justo ut consequat tristique.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>GRAPHSPY: Fused Program Semantic-Level Embedding via Graph Neural Networks for Dead Store Detection</title>
+      <link>http://localhost:1313/publication/20-corr-guo/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/20-corr-guo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamically Configuring LRU Replacement Policy in Redis</title>
+      <link>http://localhost:1313/publication/20-memsys-wang/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/20-memsys-wang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Huge Page Friendly Virtualized Memory Management</title>
+      <link>http://localhost:1313/publication/20-jct-sha/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/20-jct-sha/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An example preprint / working paper</title>
+      <link>http://localhost:1313/publication_example/preprint/</link>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication_example/preprint/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including &lt;a href=&#34;https://docs.hugoblox.com/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An example journal article</title>
+      <link>http://localhost:1313/publication_example/journal-article/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication_example/journal-article/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including &lt;a href=&#34;https://docs.hugoblox.com/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An example conference paper</title>
+      <link>http://localhost:1313/publication_example/conference-paper/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication_example/conference-paper/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including &lt;a href=&#34;https://docs.hugoblox.com/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/admin/config.yml</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/admin/config.yml</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
