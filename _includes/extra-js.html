@@ -1,0 +1,75 @@
+<script>
+(function($) {
+  var searchData = null;
+
+  function loadSearch(cb) {
+    if (searchData) { cb(searchData); return; }
+    $.ajax({ type: 'GET', url: '/search.json', dataType: 'json',
+      success: function(d) { searchData = d; cb(d); },
+      error: function() { cb([]); }
+    });
+  }
+
+  function getSnippet(content, query, radius) {
+    if (!content) return '';
+    var idx = content.toLowerCase().indexOf(query.toLowerCase());
+    if (idx === -1) return content.slice(0, radius * 2) + '…';
+    var start = Math.max(0, idx - radius);
+    var end = Math.min(content.length, idx + query.length + radius);
+    var snippet = (start > 0 ? '…' : '') + content.slice(start, end) + (end < content.length ? '…' : '');
+    var re = new RegExp('(' + query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi');
+    return snippet.replace(re, '<mark>$1</mark>');
+  }
+
+  function runSearch(query) {
+    var $list = $('.search-results');
+    $list.empty();
+    if (!query) return;
+    loadSearch(function(data) {
+      var results = [];
+      $.each(data, function(_, post) {
+        var fields = [post.title, post.tags, post.categories, post.content, post.description];
+        for (var i = 0; i < fields.length; i++) {
+          if (fields[i] && fields[i].toLowerCase().indexOf(query.toLowerCase()) !== -1) {
+            results.push(post); break;
+          }
+        }
+      });
+      if (!results.length) {
+        $list.append('<p>Oh no! We didn\'t find anything :(</p>'); return;
+      }
+      $.each(results.slice(0, 10), function(_, post) {
+        var snippet = getSnippet(post.content || post.description || '', query, 80);
+        $list.append(
+          '<li><article><a href="' + post.url + '">' +
+          '<span class="entry-category">' + (post.categories || '') + '</span> ' + post.title +
+          (snippet ? '<p style="font-size:0.82em;color:#aaa;margin:3px 0 0;white-space:normal;line-height:1.4;">' + snippet + '</p>' : '') +
+          '<span class="entry-date"><time>' + post.date + '</time></span>' +
+          '</a></article></li>'
+        );
+      });
+    });
+  }
+
+  $(document).ready(function() {
+    $('.dosearch').off('click').on('click', function() {
+      $('.search-wrapper').toggleClass('active');
+      $('.search-form').toggleClass('active');
+      $('.search-form').find('input').focus();
+      $('body').toggleClass('search-overlay');
+    });
+    $('.icon-remove-sign').off('click').on('click', function() {
+      $('.search-wrapper').removeClass('active');
+      $('.search-form').removeClass('active');
+      $('body').removeClass('search-overlay');
+    });
+    $(document).on('keyup', '.search-field', function() {
+      runSearch($(this).val().trim());
+    });
+  });
+})(Zepto);
+</script>
+
+<style>
+.search-results mark { background: #680E0E; color: #fff; padding: 0 2px; border-radius: 2px; }
+</style>

@@ -1,6 +1,96 @@
 ---
-layout: contact
-title: Contact
-description: Let's talk.
+layout: page
+title: Physical address
 permalink: /contact/
 ---
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<style>
+.contact-wrapper { max-width: 860px; margin: 0 auto; padding: 0 2rem 3rem; }
+.contact-wrapper h1 { text-align: center; margin-bottom: 2.5rem; }
+
+.contact-hero-wrap { width: 100%; height: 220px; border-radius: 8px; margin-bottom: 2.5rem; background: #680E0E; display: flex; align-items: center; justify-content: center; }
+.contact-hero { max-width: 360px; width: 70%; height: auto; display: block; }
+
+.contact-locations { display: flex; flex-direction: column; gap: 2.5rem; }
+
+.contact-card { display: flex; gap: 2rem; flex-wrap: wrap; border: 1px solid #e0e0e0; border-radius: 8px; overflow: hidden; }
+.contact-card-info { flex: 1; min-width: 240px; padding: 1.5rem; }
+.contact-card-info h2 { font-size: 1.15rem; font-weight: 700; color: #680E0E; margin: 0 0 1rem; text-transform: uppercase; letter-spacing: 0.05em; border-bottom: 2px solid #680E0E; padding-bottom: 0.4rem; }
+.contact-detail { display: flex; align-items: flex-start; gap: 0.7rem; margin-bottom: 0.8rem; font-size: 0.95rem; color: #444; line-height: 1.5; }
+.contact-detail i { color: #680E0E; margin-top: 0.15rem; width: 16px; flex-shrink: 0; }
+.contact-detail a { color: #680E0E; text-decoration: none; }
+.contact-detail a:hover { text-decoration: underline; }
+
+.contact-map { flex: 1.2; min-width: 280px; min-height: 220px; }
+.leaflet-map { width: 100%; height: 100%; min-height: 220px; }
+</style>
+
+<div class="contact-wrapper">
+  <h1>Physical address</h1>
+
+  <div class="contact-hero-wrap">
+    <img class="contact-hero" src="/assets/img/lab-logo.png" alt="TELOS Systems Lab">
+  </div>
+
+  <div class="contact-locations">
+
+    <div class="contact-card">
+      <div class="contact-card-info">
+        <h2>NUMA 0 — Main Campus</h2>
+        <div class="contact-detail">
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:contact@telos.top">contact@telos.top</a>
+        </div>
+        <div class="contact-detail">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>5 Yiheyuan Rd, Haidian District, Beijing, 100871, China</span>
+        </div>
+        <div class="contact-detail">
+          <i class="fas fa-directions"></i>
+          <span>Enter the Science Building (1) and take the elevator to office 1336 on the 3rd floor</span>
+        </div>
+      </div>
+      <div class="contact-map">
+        <div id="map1" class="leaflet-map"></div>
+      </div>
+    </div>
+
+    <div class="contact-card">
+      <div class="contact-card-info">
+        <h2>NUMA 1 — Changping Campus</h2>
+        <div class="contact-detail">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>New Changping Campus, Shenniu Rd, Machikou, Changping District, Beijing, 102205, China</span>
+        </div>
+        <div class="contact-detail">
+          <i class="fas fa-directions"></i>
+          <span>Enter the Computer Science Building and take the elevator to office 201 on the 2nd floor</span>
+        </div>
+      </div>
+      <div class="contact-map">
+        <div id="map2" class="leaflet-map"></div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script>
+(function() {
+  function initMap(id, lat, lng, label) {
+    var m = L.map(id).setView([lat, lng], 15);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(m);
+    L.marker([lat, lng]).addTo(m).bindPopup(label).openPopup();
+  }
+  document.addEventListener('DOMContentLoaded', function() {
+    initMap('map1', 39.989762, 116.307381, 'TELOS Lab — Science Building 1, Office 1336');
+    initMap('map2', 40.176246, 116.161006, 'TELOS Lab — CS Building, Office 201');
+  });
+})();
+</script>

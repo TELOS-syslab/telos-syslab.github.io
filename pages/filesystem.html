@@ -1,0 +1,54 @@
+---
+layout: main
+title: File system
+permalink: /filesystem/
+---
+
+<main class="home" role="main">
+  <div style="display: flex; align-items: baseline; flex-wrap: wrap; gap: 1.5rem; padding: 0 1.5rem; margin-bottom: 0.5rem;">
+    <h1 class="title-category" style="margin: 0; flex-shrink: 0;">/File system</h1>
+    <span style="font-size: 0.95rem; color: #777;"><strong style="color: #fff;">Research Artifacts</strong> — Our code repository is hosted on <a href="https://github.com/TELOS-syslab" target="_blank" style="color: #680E0E; text-decoration: none; font-weight: 600;">GitHub ↗</a></span>
+  </div>
+
+  <section id="grid" class="row flex-grid">
+    {% assign sorted_fs = site.posts | where: "category", "filesystem" | sort: "date" | reverse %}
+    {% for talk in sorted_fs %}
+      <article class="box-item">
+        <div class="box-body">
+          <a class="cover" href="{{ talk.url }}">
+            {% include loader.html %}
+            {% if talk.image %}
+              <img src="/assets/img/placeholder.png" width="100%" data-url="{{ talk.image }}" class="preload">
+              <noscript><img src="{{ talk.image }}" width="100%"></noscript>
+            {% else %}
+              <img src="/assets/img/placeholder.png" width="100%" data-url="/assets/img/off.jpg" class="preload">
+              <noscript><img src="/assets/img/off.jpg" width="100%"></noscript>
+            {% endif %}
+            {% include read-icon.html %}
+          </a>
+          <div class="box-info">
+            <time datetime="{{ talk.date | date_to_xmlschema }}" class="date">
+              {% include date.html date=talk.date %}
+            </time>
+            <a class="post-link" href="{{ talk.url }}">
+              <h2 class="post-title">{{ talk.title }}</h2>
+            </a>
+            <p class="description" style="color: #777; font-size: 0.88rem; margin: 0.2rem 0 0.3rem;">by {{ talk.speaker }}</p>
+            <a class="post-link" href="{{ talk.url }}">
+              <p class="description">{{ talk.description }}</p>
+            </a>
+            {% if talk.tags %}
+            <div class="tags">
+              {% for tag in talk.tags %}
+                {% if tag != "" %}
+                  <a href="/tags/#{{ tag | slugify }}">#{{ tag }}</a>
+                {% endif %}
+              {% endfor %}
+            </div>
+            {% endif %}
+          </div>
+        </div>
+      </article>
+    {% endfor %}
+  </section>
+</main>

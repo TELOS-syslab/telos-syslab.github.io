@@ -2,6 +2,8 @@
 layout: page
 ---
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 <style>
 .author-profile { max-width: 800px; margin: 0 auto; padding: 2rem 1rem; }
 .author-header { display: flex; gap: 2rem; align-items: flex-start; margin-bottom: 2rem; flex-wrap: wrap; }
@@ -9,13 +11,12 @@ layout: page
 .author-avatar-wrap img { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 30%; display: block; padding: 0; margin: 0; border-radius: 0; }
 .author-info { flex: 1; }
 .author-info h1 { margin: 0 0 0.3rem; font-size: 1.8rem; }
-.author-info .author-position { font-size: 1.1rem; color: #999; margin: 0 0 0.2rem; font-style: italic; }
-.author-info .author-org { margin: 0 0 0.4rem; }
-.author-info .author-org a { color: #e74c3c; text-decoration: none; font-size: 0.95rem; }
-.author-info .author-org a:hover { text-decoration: underline; }
+.author-info .author-position { font-size: 1.1rem; color: #999; margin: 0 0 0.4rem; font-style: italic; }
+.author-info .author-position a { color: #680E0E; text-decoration: none; font-size: 1.1rem; }
+.author-info .author-position a:hover { text-decoration: underline; }
 .author-links { display: flex; gap: 0.8rem; margin-top: 0.8rem; flex-wrap: wrap; }
-.author-links a { display: inline-block; padding: 0.35rem 0.7rem; border-radius: 4px; font-size: 1.3rem; text-decoration: none; border: 1px solid #e74c3c; color: #e74c3c; line-height: 1; }
-.author-links a:hover { background: #e74c3c; color: #fff; }
+.author-links a { display: inline-block; padding: 0.35rem 0.7rem; border-radius: 4px; font-size: 1.3rem; text-decoration: none; border: 1px solid #680E0E; color: #680E0E; line-height: 1; }
+.author-links a:hover { background: #680E0E; color: #fff; }
 .author-bio { line-height: 1.8; font-size: 0.98rem; border-top: 1px solid #2a2a2a; padding-top: 1.5rem; }
 .author-bio p { margin-bottom: 1rem; }
 .author-latest { margin-top: 2rem; border-top: 1px solid #2a2a2a; padding-top: 1.5rem; }
@@ -23,9 +24,9 @@ layout: page
 .pub-table { width: 100%; border-collapse: collapse; }
 .pub-table tr { border-bottom: 1px solid #2a2a2a; }
 .pub-table td { padding: 0.75rem 0.5rem; vertical-align: top; font-size: 0.9rem; }
-.pub-venue { width: 120px; font-weight: 700; color: #e74c3c; white-space: nowrap; }
+.pub-venue { width: 120px; font-weight: 700; color: #680E0E; white-space: nowrap; }
 .pub-info a { color: inherit; text-decoration: none; font-weight: 600; }
-.pub-info a:hover { color: #e74c3c; }
+.pub-info a:hover { color: #680E0E; }
 .pub-authors { font-size: 0.8rem; color: #999; margin-top: 0.25rem; }
 </style>
 
@@ -41,19 +42,20 @@ layout: page
 
     <div class="author-info">
       <h1>{{ page.display_name }}</h1>
-      {% if page.position %}<p class="author-position">{{ page.position }}</p>{% endif %}
-      {% if page.organization %}
-        <p class="author-org">
+      <p class="author-position">
+        {% if page.position %}{{ page.position }}{% endif %}
+        {% if page.position and page.organization %} · {% endif %}
+        {% if page.organization %}
           {% if page.organization_url %}
             <a href="{{ page.organization_url }}" target="_blank">{{ page.organization }}</a>
           {% else %}
             {{ page.organization }}
           {% endif %}
-        </p>
-      {% endif %}
+        {% endif %}
+      </p>
       <div class="author-links">
         {% if page.email %}
-          <a href="mailto:{{ page.email }}" title="{{ page.email }}">✉</a>
+          <a href="mailto:{{ page.email }}" title="{{ page.email }}"><i class="fas fa-envelope"></i></a>
         {% endif %}
         {% if page.homepage %}
           <a href="{{ page.homepage }}" target="_blank">🔗 Homepage</a>
@@ -62,7 +64,8 @@ layout: page
     </div>
   </div>
 
-  {% if page.content and page.content != "" %}
+  {% assign bio_text = content | strip_html | strip %}
+  {% if bio_text != "" %}
   <div class="author-bio">
     {{ content }}
   </div>

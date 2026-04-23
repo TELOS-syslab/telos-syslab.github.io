@@ -4,35 +4,34 @@ layout: minimal
 
 {% assign date_format = site.date_format | default: "%m/%d/%Y" %}
 
+{% assign all_items = site.posts | where_exp:"p","p.is_generated != true" %}
+
+{% assign all_tags = "" | split: "" %}
+{% for item in all_items %}
+  {% for tag in item.tags %}
+    {% unless all_tags contains tag %}
+      {% assign all_tags = all_tags | push: tag %}
+    {% endunless %}
+  {% endfor %}
+{% endfor %}
+{% assign all_tags = all_tags | sort %}
+
 <div class="tags">
-  {% assign tags_list = site.tags %}
-    {% if tags_list.first[0] == null %}
-      {% for tag in tags_list %}
-          <a href="#{{ tag | slugify }}">#{{ tag }}</a>
-      {% endfor %}
-    {% else %}
-      {% for tag in tags_list %}
-          <a href="#{{ tag[0] | slugify }}">#{{ tag[0] }}</a>
-      {% endfor %}
-    {% endif %}
-  {% assign tags_list = nil %}
+  {% for tag in all_tags %}
+    <a href="#{{ tag | slugify }}">#{{ tag }}</a>
+  {% endfor %}
 </div>
 
-{% for tag in site.tags  %}
-  <a class="post-anchor" id="{{ tag[0] | slugify }}"></a>
+{% for tag in all_tags %}
+  <a class="post-anchor" id="{{ tag | slugify }}"></a>
   <div class="tag-title">
-    <span>#{{ tag[0] }}</span>
+    <span>#{{ tag }}</span>
   </div>
   <ul class="post-list">
-      {% assign pages_list = tag[1] %}
-      {% for post in pages_list reversed %}
-          {% if post.title != null and post.is_generated != true %}
-            {% if group == null or group == post.group %}
-              <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}<span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: date_format }}</time></a></li>
-            {% endif %}
-          {% endif %}
-      {% endfor %}
-      {% assign pages_list = nil %}
-      {% assign group = nil %}
+    {% for item in all_items %}
+      {% if item.tags contains tag and item.title != null %}
+        <li><a href="{{ site.url }}{{ site.baseurl }}{{ item.url }}">{{ item.title }}<span class="entry-date"><time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: date_format }}</time></span></a></li>
+      {% endif %}
+    {% endfor %}
   </ul>
 {% endfor %}

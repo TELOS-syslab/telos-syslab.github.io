@@ -8,6 +8,7 @@ tags:
   - memory
   - research
 show_hero: true
+hero_image: /assets/img/home-banner.png
 menu:
   - title: Home
     url: /
@@ -64,9 +65,12 @@ permalink: /:title/
 collections:
   authors:
     output: true
+  publications:
+    output: true
+    permalink: /publication/:name/
 paginate_path: "/page/:num/"
-show_get_theme_btn: true
-use_logo: false
+show_get_theme_btn: false
+use_logo: true
 
 # Content paginator
 paginate_content:

@@ -1,0 +1,25 @@
+---
+layout: publication
+slug: "25-atc-peng"
+title: "Asterinas: A Linux ABI-Compatible, Rust-Based Framekernel OS with a Small and Sound TCB"
+year: "2025"
+pub_type: "Conference Paper"
+venue: "USENIX ATC 25"
+publication: "2025 USENIX Annual Techinical Conference"
+abstract: "How can one build a feature-rich, Rust-based operating system (OS) with a minimal and sound Trusted Computing Base (TCB) for memory safety? Existing Rust-based OSes fall short due to their improper usage of unsafe Rust in kernel development. To address these challenges, we propose a novel framekernel architecture that leverages Rust鈥檚 memory safety features to enable intra-kernel privilege separation, ensuring TCB minimality and soundness. We present OSTD, a streamlined framework for safe Rust OS development, and Asterinas, a Linux ABI-compatible framekernel OS implemented entirely in safe Rust using OSTD. Supporting over 180 Linux system calls, Asterinas delivers performance on par with Linux, while maintaining a memory safe TCB of just 10K lines of code鈥攁bout 17% of its total codebase. These results underscore the practicality and benefits of the framekernel architecture in building safe and efficient OSes"
+url_code: "https://github.com/asterinas/asterinas"
+authors:
+  - "Yuke Peng"
+  - "Hongliang Tian"
+  - "Junyang Zhang"
+  - "Ruihan Li"
+  - "Chengjun Chen"
+  - "Jianfeng Jiang"
+  - "Jinyi Xian"
+  - "Yingwei Luo"
+  - "Xiaolin Wang"
+  - "Chenren Xu"
+  - "Diyu Zhou"
+  - "Shoumeng Yan"
+  - "Yinqian Zhang"
+---
