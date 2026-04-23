@@ -51,7 +51,7 @@ two_columns_layout: true
 
 # Advanced Settings
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://telos-syslab.github.io"
+url: "https://telos.top"
 google_analytics: "UA-XXXXXXXX-X"
 language: "en"
 categories_folder: category
