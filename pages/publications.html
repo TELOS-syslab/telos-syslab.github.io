@@ -20,9 +20,11 @@ permalink: /publications/
 .pub-table td { padding: 0.9rem 0.5rem; vertical-align: top; font-size: 1rem; color: #333; }
 .pub-table td.pub-venue-cell { width: 130px; min-width: 130px; max-width: 130px; font-weight: 700; color: #680E0E !important; padding-right: 1rem; word-break: break-word; }
 
-.pub-title { font-weight: 600; margin-bottom: 0.2rem; font-size: 1rem; color: #333; }
+.pub-title-row { display: flex; flex-wrap: wrap; align-items: center; gap: 0.45rem; margin-bottom: 0.2rem; }
+.pub-title { font-weight: 600; margin-bottom: 0; font-size: 1rem; color: #333; }
 .pub-title a { color: #333; text-decoration: none; }
 .pub-title a:hover { color: #680E0E; }
+.pub-award-badge { display: inline-flex; align-items: center; gap: 0.3rem; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; color: #5a3b00; background: #ffe08a; border: 1px solid #d8a31a; border-radius: 999px; padding: 0.18rem 0.55rem; box-shadow: 0 0 0 1px rgba(255, 224, 138, 0.2); }
 .pub-full-name { font-size: 0.9rem; color: #777; margin-bottom: 0.2rem; font-style: italic; }
 .pub-authors { font-size: 0.9rem; color: #333; margin-bottom: 0.3rem; }
 .pub-abstract { font-size: 0.9rem; color: #555; margin: 0.4rem 0; line-height: 1.6; display: none; }
@@ -50,8 +52,13 @@ permalink: /publications/
             <i class="far fa-file-alt" style="margin-right:0.4rem;"></i>{{ pub.venue }}
           </td>
           <td>
-            <div class="pub-title">
-              <a href="/publication/{{ pub.slug }}/">{{ pub.title }}</a>
+            <div class="pub-title-row">
+              <div class="pub-title">
+                <a href="/publication/{{ pub.slug }}/">{{ pub.title }}</a>
+              </div>
+              {% if pub.award and pub.award != "" %}
+                <span class="pub-award-badge"><i class="fas fa-trophy"></i> {{ pub.award }}</span>
+              {% endif %}
             </div>
             {% if pub.publication and pub.publication != "" and pub.publication != pub.venue %}
               <div class="pub-full-name">{{ pub.publication }}</div>
