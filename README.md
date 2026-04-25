@@ -1,226 +1,167 @@
-# Jekflix Template
+# TELOS Systems Lab — Website
 
-![Jekflix Template Cover Image](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1505354182/jekflix-logo_mfngps.png)
+Lab website for TELOS Systems Lab at Peking University, built with [Jekyll](https://jekyllrb.com/) using the Jekflix theme.
 
-> **⚠️ This project is no longer being maintained.**
-
-See the [demo here](https://jekflix.rossener.com/).
-
-## What is it?
-
-A theme for Jekyll inspired by Netflix panel for who loves movies and series and would like to have a blog with this cool appearance.
-
-![Jekflix Screenshot Image](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566390829/jekflix-screenshot-2_zfiog2.jpg)
-
-## Features
-
-- [Live Search](docs/features.md#live-search)
-- [Estimated Reading Time](docs/features.md#estimated-reading-time)
-- [Reading Progress Bar](docs/features.md#reading-progress-bar) *(optional)*
-- ["New Post" tag](docs/features.md#new-post-tag)
-- [Load images on demand](docs/features.md#load-images-on-demand)
-- [Push Menu](docs/features.md#push-menu)
-- [SVG icons](docs/features.md#svg-icons)
-- [Shell script to create posts](docs/features.md#shell-script-to-create-posts)
-- [Tags page](docs/features.md#tags-page)
-- [About page](docs/features.md#about-page)
-- [Contact page](docs/features.md#contact-page)
-- [404 error page](docs/features.md#404-error-page)
-- [Feed RSS](docs/features.md#feed-rss)
-- [Disqus](docs/features.md#disqus) *(optional)*
-- [Featured post](docs/features.md#featured-post) *(optional)*
-- [Home page pagination](docs/features.md#home-page-pagination) *(optional)*
-- [Posts sidebar](docs/features.md#posts-sidebar) *(optional)*
-- [Paginated posts](docs/features.md#paginated-posts) *(optional)*
-- ["Before you go" modal](docs/features.md#before-you-go-modal) *(optional)*
-- [Post recommendation](docs/features.md#post-recommendation)
-- [Netlify CMS ready](docs/features.md#netlify-cms-ready)
-- [Translations](docs/setup.md#translations) **new!**
-- [Math Expressions](docs/features.md#math-expressions) *(optional)* **new!**
-
-## SEO
-
-- Google Analytics
-- Meta tags
-- JSON-LD
-- Sitemap.xml
-- Social Media ready
-
-## Quick Install
-
-In the case you're installing to existing Jekyll project, add this line to your project's `Gemfile`:
-
-```
-gem "jekflix"
-```
-
-Add this line to your project's `_config.yml`:
-
-```
-theme: jekflix
-```
-
-And then run:
-
-```
-$ bundle
-```
-
-Or install it yourself as:
-
-```
-$ gem install jekflix
-```
-
-### Theme Colors
-
-Create the file `/assets/css/styles.scss` and add:
-
-```
----
 ---
 
-$themeColor: #ff0a16;
-$primaryDark: #141414;
-$accentDark: #ffffff;
-$lightGray: #f2f2f2;
-$texts: #333333;
+## 1. Build Locally
 
-@import "jekflix";
+**Prerequisites:** Ruby and Bundler installed.
+
+```bash
+# Install dependencies (first time only)
+bundle install
+
+# Start the local server
+bundle exec jekyll serve
 ```
 
-Modify the variables above to change your theme colors.
+Then open `http://localhost:4000` in your browser.
 
-### Site configuration
+> Note: changes to `_config.yml` require restarting the server. Most other changes hot-reload automatically.
 
-Below are some properties you can change in your project `_config.yml`, check the [documentation](docs/settings.md#settings) for more details.
+---
+
+## 2. Repository Architecture
 
 ```
-# Site Settings
-name: Jekflix
-title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by Thiago Rossener.
-tags:
-  - blog
-  - template
-  - jekyll
-  - theme
-  - netlify
-email: youremail@xyz.com
-disqus_username: disqus_username
-show_hero: true
-menu:
-  - title: Home
-    url: /
-  - title: About
-    url: /about
-  - title: Contact
-    url: /contact
-  - title: Feed
-    url: /feed.xml
+.
+├── _config.yml           # Site settings and navigation menu
+├── _data/
+│   ├── people.yml        # People listed on the Software Stack page
+│   └── publications.yml  # Papers listed on the I/O Outputs page
+├── _posts/               # Blog posts shown in the Interrupts tab
+├── _authors/             # Per-author profile pages
+├── assets/
+│   └── img/authors/      # Author profile photos
+├── pages/
+│   ├── people.html       # Software Stack page
+│   ├── publications.html # I/O Outputs page
+│   ├── interrupts.html   # Interrupts page (merged filesystem + scheduled tasks)
+│   ├── funding.html      # Power Supply page
+│   └── about.md          # About page
+├── _includes/            # Reusable HTML partials (header, footer, etc.)
+├── _layouts/             # Page layout templates
+└── _sass/                # Stylesheets
+```
 
-# Social Media Settings
-# Remove the item if you don't need it
-github_username: github_username
-facebook_username: facebook_username
-twitter_username: twitter_username
-instagram_username: instagram_username
-linkedin_username: linkedin_username
-medium_username: medium_username
+---
 
-# Posts Settings
-show_time_bar: true
-show_modal_on_exit: false
-show_modal_on_finish_post: true
-two_columns_layout: true
+## 3. Add People to Software Stack
 
-# Advanced Settings
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
-google_analytics: "UA-XXXXXXXX-X"
-language: "en"
-categories_folder: category
-sent_message_url: "/contact/message-sent/"
+People are managed in `_data/people.yml`. The page has five sections:
 
-# Build settings
-markdown: kramdown
-highlighter: rouge
-permalink: /:title/
-collections:
+| Section key      | Display name         |
+|------------------|----------------------|
+| `professors`     | Microkernels         |
+| `students`       | Service processes    |
+| `administration` | Systemd              |
+| `alumni`         | Terminated processes |
+| `collaborators`  | Networking connection|
+
+**Step 1 — Add a photo**
+
+Place a `.jpg` image (ideally square, at least 280×280px) in `assets/img/authors/`. Name it `firstname-lastname.jpg` in lowercase, e.g. `sujin-kang.jpg`.
+
+> Avoid PNG files with transparent backgrounds — transparency becomes black in JPG. Flatten to a white background first if needed.
+
+**Step 2 — Add the entry to `_data/people.yml`**
+
+```yaml
+students:
+  - name: Sujin Kang
+    slug: sujin-kang
+    role: Ph.D Student
+    avatar: /assets/img/authors/sujin-kang.jpg
+    homepage: https://example.com   # optional; omit to link to the author page
+```
+
+Fields:
+
+| Field      | Required | Description                                      |
+|------------|----------|--------------------------------------------------|
+| `name`     | Yes      | Full name as displayed                           |
+| `slug`     | Yes      | Kebab-case name, used to link to `_authors/`     |
+| `role`     | Yes      | e.g. `Ph.D Student`, `Master Student`, `Professor` |
+| `avatar`   | Yes      | Path to the photo under `assets/img/authors/`    |
+| `homepage` | No       | External homepage URL; overrides the author page |
+
+**Step 3 — (Optional) Create an author profile page**
+
+Create `_authors/sujin-kang.md`:
+
+```yaml
+---
+layout: author
+name: sujin-kang
+display_name: Sujin Kang
+photo: /assets/img/authors/sujin-kang.jpg
+---
+Short bio here.
+```
+
+---
+
+## 4. Update Papers in I/O Outputs
+
+Papers are listed in `_data/publications.yml`. Each entry is a YAML list item:
+
+```yaml
+- slug: "25-atc-example"
+  title: "Your Paper Title"
+  year: "2025"
+  pub_type: "Conference Paper"        # or "Journal Article", "Preprint", etc.
+  venue: "USENIX ATC 25"             # short venue name shown as a badge
+  publication: "2025 USENIX Annual Technical Conference"  # full venue name
+  abstract: "Paper abstract text..."
+  doi: "https://doi.org/10.xxxx/..."  # optional
+  url_code: "https://github.com/..."  # optional
   authors:
-    output: true
-paginate_path: "/page/:num/"
-show_get_theme_btn: true
-use_logo: false
-
-# Content paginator
-paginate_content:
-  enabled: true
-  debug: false
-  collections:
-    - posts
-  auto: false
-  separator: "--page-break--"
-  permalink: "/:num/"
-  seo_canonical: true
-  properties:
-    part:
-      is_generated: true
-    last:
-      is_generated: true
-    single:
-      is_generated: true
-
-# SASS
-sass:
-  style: compressed
-
-# Plugins
-plugins:
-  - jekyll-paginate
-  - jekyll-paginate-content
+    - "First Author"
+    - "Second Author"
+    - "Sai Sha"
 ```
 
-## Setup
+Fields:
 
-In the case you're cloning this repo, follow those instructions:
+| Field         | Required | Description                              |
+|---------------|----------|------------------------------------------|
+| `slug`        | Yes      | Unique ID, used as URL key               |
+| `title`       | Yes      | Full paper title                         |
+| `year`        | Yes      | Publication year (string)                |
+| `pub_type`    | Yes      | Publication type                         |
+| `venue`       | Yes      | Short venue label                        |
+| `publication` | Yes      | Full conference/journal name             |
+| `abstract`    | No       | Abstract text                            |
+| `doi`         | No       | DOI link                                 |
+| `url_code`    | No       | Link to code repository                  |
+| `authors`     | Yes      | Ordered list of author names             |
 
-- [Environment](docs/setup.md#environment)
-- [Installing template](docs/setup.md#installing-template)
-- [Running local](docs/setup.md#running-local)
+Add new entries at the top of the file to keep them sorted newest-first.
 
-### Customization
+---
 
-See the [settings documentation](docs/settings.md#settings) to customize layout, titles, social media and more.
+## 5. Add Posts to the Interrupts Tab
 
-### Theme
+All posts in the Interrupts tab use `category: interrupts`.
 
-You can easily change the theme colors by changing the file `src/yml/theme.yml`, then running `gulp build` in your terminal.
+Create a new file in `_posts/` named `YYYY-MM-DD-short-title.md`:
 
-#### GitHub pages
+```yaml
+---
+layout: post
+title: "Post Title"
+date: 2025-09-01
+category: interrupts
+tags:
+  - TELOS_talks     # or: events, reading-group, etc.
+speaker: "Speaker Name"   # optional; shown as "by Name" on the card
+description: "One-sentence summary shown in the card."
+image: /assets/img/your-cover-image.jpg
+slides: /assets/files/your-slides.pdf   # optional
+---
 
-It's a known issue that you can't run Gulp when deploying the website into GitHub pages. So, you must change the theme colors and run `gulp build` locally, then push the changes into your repo, there is no other way.
+Post body in Markdown.
+```
 
-To see how your website is going to look like when you deploy it, run `bundle exec jekyll serve` locally and access `http://127.0.0.1:4000/`.
-
-## Posts
-
-Use the [Front Matter properties](docs/post.md#front-matter-properties) to create posts.
-
-> **Note:** In the case you're cloning this repo, you can use the available [script](docs/post.md#creating-a-post) to generate posts automatically.
-
-## Questions?
-
-File a [GitHub issue](https://github.com/thiagorossener/jekflix-template/issues/new) please.
-
-## Author
-
-[Thiago Rossener](https://rossener.com/)
-
-Do you like my work? Buy me a coffee!
-
-<a href="https://www.buymeacoffee.com/thiagorossener" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
-
-## License
-
-*Jekflix Template* is available under the MIT license. See the [LICENSE](https://github.com/thiagorossener/jekflix-template/blob/master/LICENSE) file for more info.
+The filename date (`YYYY-MM-DD`) controls display order — newest appears first.

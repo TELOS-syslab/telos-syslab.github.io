@@ -21,7 +21,7 @@ students:
   - name: Chuandong Li
     slug: chuandong-li
     role: Ph.D Student
-    avatar: /assets/img/authors/chuandong-li.png
+    avatar: /assets/img/authors/chuandong-li.jpg
   - name: Huchao Mo
     slug: huchao-mo
     role: Master Student
@@ -33,7 +33,7 @@ students:
   - name: Jianyu Wu
     slug: jianyu-wu
     role: Ph.D Student
-    avatar: /assets/img/authors/jianyu-wu.PNG
+    avatar: /assets/img/authors/jianyu-wu.jpg
   - name: Jiaxun Han
     slug: jiaxun-han
     role: Ph.D Student
@@ -47,7 +47,7 @@ students:
   - name: Kang Hu
     slug: kang-hu
     role: Ph.D Student
-    avatar: /assets/img/authors/kang-hu.png
+    avatar: /assets/img/authors/kang-hu.jpg
   - name: Liheng Luo
     slug: liheng-luo
     role: Ph.D Student
@@ -56,12 +56,12 @@ students:
   - name: Liren Zhu
     slug: liren-zhu
     role: Ph.D Student
-    avatar: /assets/img/authors/liren-zhu.png
+    avatar: /assets/img/authors/liren-zhu.jpg
     homepage: https://pku-zlr.github.io
   - name: Liujia Li
     slug: liujia-li
     role: Ph.D Student
-    avatar: /assets/img/authors/liujia-li.PNG
+    avatar: /assets/img/authors/liujia-li.jpg
     homepage: https://lljgugugu.github.io/
   - name: Ran Yi
     slug: ran-yi
@@ -70,12 +70,12 @@ students:
   - name: Sujin Kang
     slug: sujin-kang
     role: Master Student
-    avatar: /assets/img/authors/sujin-kang.png
+    avatar: /assets/img/authors/sujin-kang.jpg
     homepage: https://5ujinkang.github.io/teaser
   - name: Tianhao Fu
     slug: tianhao-fu
     role: Ph.D Student
-    avatar: /assets/img/authors/tianhao-fu.png
+    avatar: /assets/img/authors/tianhao-fu.jpg
   - name: Xiangcan Xu
     slug: xiangcan-xu
     role: Ph.D Student
@@ -87,7 +87,7 @@ students:
   - name: Xiran Yang
     slug: xiran-yang
     role: Ph.D Student
-    avatar: /assets/img/authors/xiran-yang.png
+    avatar: /assets/img/authors/xiran-yang.jpg
   - name: Yangqing Zeng
     slug: yangqing-zeng
     role: Ph.D Student
@@ -109,7 +109,7 @@ students:
     slug: zehua-yang
     display_name: Potato Yang
     role: Ph.D Student
-    avatar: /assets/img/authors/zehua-yang.png
+    avatar: /assets/img/authors/zehua-yang.jpg
   - name: Zhe Tang
     slug: zhe-tang
     role: Ph.D Student

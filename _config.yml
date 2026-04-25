@@ -16,12 +16,10 @@ menu:
     url: /people
   - title: I/O outputs
     url: /publications
-  - title: Scheduled tasks
-    url: /tasks
+  - title: Interrupts
+    url: /interrupts
   - title: Physical address
     url: /contact
-  - title: File system
-    url: /filesystem
   - title: Power supply
     url: /funding
 email: youremail@pku.edu.cn

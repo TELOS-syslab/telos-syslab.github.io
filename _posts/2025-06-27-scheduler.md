@@ -2,7 +2,7 @@
 layout: post
 title: "Scheduler"
 date: 2025-06-27
-category: filesystem
+category: interrupts
 tags:
   - TELOS_talks
 speaker: "Zonghao Zhang"

@@ -3,7 +3,7 @@ layout: author
 name: tianhao-fu
 display_name: "Tianhao Fu"
 position: "Ph.D Student"
-photo: /assets/img/authors/tianhao-fu.png
+photo: /assets/img/authors/tianhao-fu.jpg
 organization: "Peking University"
 organization_url: "https://www.pku.edu.cn/"
 email: "tianhaofu@stu.pku.edu.cn"

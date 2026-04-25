@@ -1,0 +1,56 @@
+---
+layout: main
+title: Interrupts
+permalink: /interrupts/
+---
+
+<main class="home" role="main">
+  <div style="display: flex; align-items: baseline; flex-wrap: wrap; gap: 1.5rem; padding: 0 1.5rem; margin-bottom: 0.5rem;">
+    <h1 class="title-category" style="margin: 0; flex-shrink: 0;">/Interrupts</h1>
+    <span style="font-size: 0.95rem; color: #777;"><strong style="color: #fff;">Research Artifacts</strong> — Our code repository is hosted on <a href="https://github.com/TELOS-syslab" target="_blank" style="color: #680E0E; text-decoration: none; font-weight: 600;">GitHub ↗</a></span>
+  </div>
+
+  <section id="grid" class="row flex-grid">
+    {% assign all_posts = site.posts | where: "category", "interrupts" | sort: "date" | reverse %}
+    {% for post in all_posts %}
+      <article class="box-item">
+        <div class="box-body">
+          <a class="cover" href="{{ post.url }}">
+            {% include loader.html %}
+            {% if post.image %}
+              <img src="/assets/img/placeholder.png" width="100%" data-url="{{ post.image }}" class="preload">
+              <noscript><img src="{{ post.image }}" width="100%"></noscript>
+            {% else %}
+              <img src="/assets/img/placeholder.png" width="100%" data-url="/assets/img/off.jpg" class="preload">
+              <noscript><img src="/assets/img/off.jpg" width="100%"></noscript>
+            {% endif %}
+            {% include read-icon.html %}
+          </a>
+          <div class="box-info">
+            <time datetime="{{ post.date | date_to_xmlschema }}" class="date">
+              {% include date.html date=post.date %}
+            </time>
+            <a class="post-link" href="{{ post.url }}">
+              <h2 class="post-title">{{ post.title }}</h2>
+            </a>
+            {% if post.speaker %}
+            <p class="description" style="color: #777; font-size: 0.88rem; margin: 0.2rem 0 0.3rem;">by {{ post.speaker }}</p>
+            {% endif %}
+            <a class="post-link" href="{{ post.url }}">
+              <p class="description">{{ post.description }}</p>
+            </a>
+            {% if post.tags %}
+            <div class="tags">
+              {% for tag in post.tags %}
+                {% if tag != "" %}
+                  <a href="{{ site.baseurl }}/tags/#{{ tag | slugify }}">#{{ tag }}</a>
+                {% endif %}
+              {% endfor %}
+            </div>
+            {% endif %}
+          </div>
+        </div>
+      </article>
+    {% endfor %}
+  </section>
+</main>
