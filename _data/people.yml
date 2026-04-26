@@ -133,8 +133,51 @@ alumni:
     homepage: https://yezhisheng.me
 
 collaborators:
+  - name: Lin Huang
+    slug: lin-huang
+    role: Researcher
+    avatar: /assets/img/authors/lin-huang.jpg
+  - name: Jing Liu
+    slug: jing-liu
+    role: Researcher
+    avatar: /assets/img/authors/jing-liu.jpg
+    homepage: https://jingliu.xyz/
+  - name: Changwoo Min
+    slug: changwoo-min
+    role: Researcher
+    avatar: /assets/img/authors/changwoo-min.jpg
+    homepage: https://multics69.github.io/
+  - name: Jiasi Shen
+    slug: jiasi-shen
+    role: Professor
+    avatar: /assets/img/authors/jiasi-shen.jpg
+    homepage: https://shenjiasi.com/
+  - name: Yuval Tamir
+    slug: yuval-tamir
+    role: Professor
+    avatar: /assets/img/authors/yuval-tamir.jpg
+    homepage: https://web.cs.ucla.edu/~tamir/
+  - name: Hongliang Tian
+    slug: hongliang-tian
+    role: Researcher
+    avatar: /assets/img/authors/hongliang-tian.jpg
+  - name: Chenxi Wang
+    slug: chenxi-wang
+    role: Professor
+    avatar: /assets/img/authors/chenxi-wang.jpg
+    homepage: https://wangchenxi7.github.io/home/
+  - name: Di Wang
+    slug: di-wang
+    role: Professor
+    avatar: /assets/img/authors/di-wang.jpg
+    homepage: https://stonebuddha.github.io/
   - name: Zhenlin Wang
     slug: zhenlin-wang
     role: Professor
     avatar: /assets/img/authors/zhenlin-wang.jpg
     homepage: https://pages.mtu.edu/~zlwang/
+  - name: Jie Zhang
+    slug: jie-zhang
+    role: Professor
+    avatar: /assets/img/authors/jie-zhang.jpg
+    homepage: https://www.chaselab.wiki/

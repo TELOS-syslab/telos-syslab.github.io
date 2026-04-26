@@ -56,7 +56,7 @@ People are managed in `_data/people.yml`. The page has five sections:
 | `professors`     | Microkernels         |
 | `students`       | Service processes    |
 | `administration` | Systemd              |
-| `alumni`         | Terminated processes |
+| `alumni`         | Migrated processes   |
 | `collaborators`  | Networking connection|
 
 **Step 1 — Add a photo**
