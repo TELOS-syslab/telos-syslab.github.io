@@ -11,7 +11,7 @@ permalink: /interrupts/
   </div>
 
   <section id="grid" class="row flex-grid">
-    {% assign all_posts = site.posts | where: "category", "interrupts" | sort: "date" | reverse %}
+    {% assign all_posts = site.posts | where: "category", "interrupts" | where_exp: "post", "post.hide_from_interrupts != true" | sort: "date" | reverse %}
     {% for post in all_posts %}
       <article class="box-item">
         <div class="box-body">
