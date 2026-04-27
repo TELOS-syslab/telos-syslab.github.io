@@ -133,10 +133,20 @@ alumni:
     homepage: https://yezhisheng.me
 
 collaborators:
+  - name: Jia-Ju Bai
+    slug: jiaju-bai
+    role: Professor
+    avatar: /assets/img/authors/jiaju-bai.jpg
+    homepage: https://baijiaju.github.io/
   - name: Lin Huang
     slug: lin-huang
     role: Researcher
     avatar: /assets/img/authors/lin-huang.jpg
+  - name: Zuming Jiang
+    slug: zuming-jiang
+    role: Professor
+    avatar: /assets/img/authors/zuming-jiang.jpg
+    homepage: https://jzuming.github.io/
   - name: Jing Liu
     slug: jing-liu
     role: Researcher
