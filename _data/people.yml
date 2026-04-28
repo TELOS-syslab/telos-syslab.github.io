@@ -14,110 +14,110 @@ professors:
     homepage: https://zhou-diyu.github.io
 
 students:
-  - name: Chenxiang Ma
-    slug: chenxiang-ma
+  - name: Yi Fan
+    slug: yi-fan
     role: Ph.D Student
-    avatar: /assets/img/authors/chenxiang-ma.jpg
-  - name: Chuandong Li
-    slug: chuandong-li
+    avatar: /assets/img/authors/yi-fan.jpg
+  - name: Tianhao Fu
+    slug: tianhao-fu
     role: Ph.D Student
-    avatar: /assets/img/authors/chuandong-li.jpg
-  - name: Huchao Mo
-    slug: huchao-mo
-    role: Master Student
-    avatar: /assets/img/authors/huchao-mo.jpg
-  - name: Jianqiang Zeng
-    slug: jianqiang-zeng
-    role: Ph.D Student
-    avatar: /assets/img/authors/jianqiang-zeng.jpg
-  - name: Jianyu Wu
-    slug: jianyu-wu
-    role: Ph.D Student
-    avatar: /assets/img/authors/jianyu-wu.jpg
+    avatar: /assets/img/authors/tianhao-fu.jpg
   - name: Jiaxun Han
     slug: jiaxun-han
     role: Ph.D Student
     avatar: /assets/img/authors/jiaxun-han.jpg
     homepage: https://jjjxhan.github.io
-  - name: Junyang Zhang
-    slug: junyang-zhang
-    role: Ph.D Student
-    avatar: /assets/img/authors/junyang-zhang.jpg
-    homepage: https://junyang.me
   - name: Kang Hu
     slug: kang-hu
     role: Ph.D Student
     avatar: /assets/img/authors/kang-hu.jpg
-  - name: Liheng Luo
-    slug: liheng-luo
-    role: Ph.D Student
-    avatar: /assets/img/authors/liheng-luo.jpg
-    homepage: https://ffoul.top
-  - name: Liren Zhu
-    slug: liren-zhu
-    role: Ph.D Student
-    avatar: /assets/img/authors/liren-zhu.jpg
-    homepage: https://pku-zlr.github.io
-  - name: Liujia Li
-    slug: liujia-li
-    role: Ph.D Student
-    avatar: /assets/img/authors/liujia-li.jpg
-    homepage: https://lljgugugu.github.io/
-  - name: Ran Yi
-    slug: ran-yi
-    role: Ph.D Student
-    avatar: /assets/img/authors/ran-yi.jpg
   - name: Sujin Kang
     slug: sujin-kang
     role: Master Student
     avatar: /assets/img/authors/sujin-kang.jpg
     homepage: https://5ujinkang.github.io/teaser
-  - name: Tianhao Fu
-    slug: tianhao-fu
+  - name: Chuandong Li
+    slug: chuandong-li
     role: Ph.D Student
-    avatar: /assets/img/authors/tianhao-fu.jpg
-  - name: Xiangcan Xu
-    slug: xiangcan-xu
+    avatar: /assets/img/authors/chuandong-li.jpg
+  - name: Liujia Li
+    slug: liujia-li
     role: Ph.D Student
-    avatar: /assets/img/authors/xiangcan-xu.jpg
+    avatar: /assets/img/authors/liujia-li.jpg
+    homepage: https://lljgugugu.github.io/
+  - name: Liheng Luo
+    slug: liheng-luo
+    role: Ph.D Student
+    avatar: /assets/img/authors/liheng-luo.jpg
+    homepage: https://ffoul.top
+  - name: Chenxiang Ma
+    slug: chenxiang-ma
+    role: Ph.D Student
+    avatar: /assets/img/authors/chenxiang-ma.jpg
+  - name: Huchao Mo
+    slug: huchao-mo
+    role: Master Student
+    avatar: /assets/img/authors/huchao-mo.jpg
   - name: Xiaohe Qin
     slug: xiaohe-qin
     role: Ph.D Student
     avatar: /assets/img/authors/xiaohe-qin.jpg
+  - name: Zhe Tang
+    slug: zhe-tang
+    role: Ph.D Student
+    avatar: /assets/img/authors/zhe-tang.jpg
+  - name: Jianyu Wu
+    slug: jianyu-wu
+    role: Ph.D Student
+    avatar: /assets/img/authors/jianyu-wu.jpg
+  - name: Xiangcan Xu
+    slug: xiangcan-xu
+    role: Ph.D Student
+    avatar: /assets/img/authors/xiangcan-xu.jpg
   - name: Xiran Yang
     slug: xiran-yang
     role: Ph.D Student
     avatar: /assets/img/authors/xiran-yang.jpg
-  - name: Yangqing Zeng
-    slug: yangqing-zeng
-    role: Ph.D Student
-    avatar: /assets/img/authors/yangqing-zeng.jpg
-  - name: Yi Fan
-    slug: yi-fan
-    role: Ph.D Student
-    avatar: /assets/img/authors/yi-fan.jpg
-  - name: Yiming Yao
-    slug: yiming-yao
-    role: Ph.D Student
-    avatar: /assets/img/authors/yiming-yao.jpg
-  - name: Yonghao Zou
-    slug: yonghao-zou
-    role: Ph.D Student
-    avatar: /assets/img/authors/yonghao-zou.jpg
-    homepage: https://zouyonghao.github.io/
   - name: Zehua Yang
     slug: zehua-yang
     display_name: Potato Yang
     role: Ph.D Student
     avatar: /assets/img/authors/zehua-yang.jpg
-  - name: Zhe Tang
-    slug: zhe-tang
+  - name: Yiming Yao
+    slug: yiming-yao
     role: Ph.D Student
-    avatar: /assets/img/authors/zhe-tang.jpg
+    avatar: /assets/img/authors/yiming-yao.jpg
+  - name: Ran Yi
+    slug: ran-yi
+    role: Ph.D Student
+    avatar: /assets/img/authors/ran-yi.jpg
+  - name: Jianqiang Zeng
+    slug: jianqiang-zeng
+    role: Ph.D Student
+    avatar: /assets/img/authors/jianqiang-zeng.jpg
+  - name: Yangqing Zeng
+    slug: yangqing-zeng
+    role: Ph.D Student
+    avatar: /assets/img/authors/yangqing-zeng.jpg
+  - name: Junyang Zhang
+    slug: junyang-zhang
+    role: Ph.D Student
+    avatar: /assets/img/authors/junyang-zhang.jpg
+    homepage: https://junyang.me
   - name: Zonghao Zhang
     slug: zonghao-zhang
     role: Master Student
     avatar: /assets/img/authors/zonghao-zhang.jpg
+  - name: Liren Zhu
+    slug: liren-zhu
+    role: Ph.D Student
+    avatar: /assets/img/authors/liren-zhu.jpg
+    homepage: https://pku-zlr.github.io
+  - name: Yonghao Zou
+    slug: yonghao-zou
+    role: Ph.D Student
+    avatar: /assets/img/authors/yonghao-zou.jpg
+    homepage: https://zouyonghao.github.io/
 
 administration:
   - name: Ju Zheng
