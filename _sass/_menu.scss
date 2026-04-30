@@ -48,13 +48,14 @@ aside.sidebar {
   h2 {
     margin: 0 rem(20px) 0;
     @include mainFont(400);
-    font-size: rem(18px);
+    font-family: "Persona5", "Titillium Web", "Helvetica Neue", Helvetica, sans-serif;
+    font-size: rem(28px);
     color: $primaryDark;
     border-bottom: 1px solid $primaryDark;
-    line-height: 50px;
+    line-height: 60px;
 
     @include media(">=sm") {
-      font-size: rem(20px);
+      font-size: rem(32px);
     }
   }
 
@@ -77,6 +78,8 @@ aside.sidebar {
           padding: rem(15px) rem(20px);
           text-decoration: none;
           @include mainFont(300);
+          font-family: "Persona5", "Titillium Web", "Helvetica Neue", Helvetica, sans-serif;
+          font-size: rem(26px);
           color: $primaryDark;
 
           &:hover {

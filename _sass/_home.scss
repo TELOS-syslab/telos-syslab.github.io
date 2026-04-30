@@ -23,12 +23,22 @@
   flex-flow: row wrap;
 }
 
+.post-content h1 {
+  font-family: "Markin", "Titillium Web", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.post-content h2,
+.post-content h3 {
+  font-family: "P5Hatty", "Titillium Web", "Helvetica Neue", Helvetica, sans-serif;
+}
+
 .title-category {
   font-size: rem(32px);
   margin: 0 0 rem(40px);
   padding: 0 rem(23px);
   text-transform: lowercase;
   color: #fff;
+  font-family: "Markin", "Titillium Web", "Helvetica Neue", Helvetica, sans-serif;
 }
 
 .box-item {

@@ -1,3 +1,38 @@
+@font-face {
+  font-family: "Persona5";
+  src: url("/assets/fonts/Persona5MenuFontPrototype-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Expose";
+  src: url("/assets/fonts/Expose-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Persona5Main";
+  src: url("/assets/fonts/Persona5main.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Markin";
+  src: url("/assets/fonts/Markin-LT-Ultra-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "P5Hatty";
+  src: url("/assets/fonts/p5hatty-1.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 @import "include-media";
 @import "normalize";
 @import "theme";

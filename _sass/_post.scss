@@ -81,6 +81,10 @@
     }
   }
 
+  h1:not(.post-title) {
+    font-family: "Markin", "Titillium Web", "Helvetica Neue", Helvetica, sans-serif;
+  }
+
   h1.post-title {
     line-height: 1.2;
     margin: rem(5px) auto rem(10px);

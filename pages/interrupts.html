@@ -4,10 +4,36 @@ title: Interrupts
 permalink: /interrupts/
 ---
 
+<style>
+  .interrupts-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 0.45rem 1rem;
+    border-radius: 6px;
+    transition: background 0.2s;
+  }
+  .interrupts-btn-github { background: #24292e; }
+  .interrupts-btn-github:hover { background: #680E0E; }
+  .interrupts-btn-wechat { background: #07C160; }
+  .interrupts-btn-wechat:hover { background: #680E0E; }
+</style>
+
 <main class="home" role="main">
-  <div style="display: flex; align-items: baseline; flex-wrap: wrap; gap: 1.5rem; padding: 0 1.5rem; margin-bottom: 0.5rem;">
+  <div style="display: flex; align-items: center; flex-wrap: wrap; gap: 1rem; padding: 0 1.5rem; margin-bottom: 0.5rem; justify-content: space-between;">
     <h1 class="title-category" style="margin: 0; flex-shrink: 0;">/Interrupts</h1>
-    <span style="font-size: 0.95rem; color: #777;"><strong style="color: #fff;">Research Artifacts</strong> — Our code repository is hosted on <a href="https://github.com/TELOS-syslab" target="_blank" style="color: #680E0E; text-decoration: none; font-weight: 600;">GitHub ↗</a></span>
+    <div style="display: flex; gap: 0.75rem;">
+      <a href="https://github.com/TELOS-syslab" target="_blank" class="interrupts-btn interrupts-btn-github">
+        <i class="fab fa-github" style="font-size: 1.1rem;"></i> Research Artifacts
+      </a>
+      <a href="#" target="_blank" class="interrupts-btn interrupts-btn-wechat">
+        <i class="fab fa-weixin" style="font-size: 1.1rem;"></i> Check more news in WeChat
+      </a>
+    </div>
   </div>
 
   <section id="grid" class="row flex-grid">
