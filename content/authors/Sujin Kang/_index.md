@@ -12,7 +12,7 @@ superuser: true
 # Role/position
 role: Master Student
 
-homepage: https://5ujinkang.github.io/teaser # If you do not want to use the internal homepage, set this to your external homepage
+homepage: https://5ujinkang.github.io # If you do not want to use the internal homepage, set this to your external homepage
 
 # Organizations/Affiliations
 organizations:
