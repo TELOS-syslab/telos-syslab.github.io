@@ -11,10 +11,10 @@ Our lab is grateful for the support from our funding partners and collaborators:
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center; gap: 20px; margin-top: 20px; margin-bottom: 20px; padding: 10px; border: 1px solid #eee; border-radius: 8px;">
   <div style="text-align: center; flex: 1; min-width: 150px; margin: 10px;">
-    <a href="https://www.nsfc.gov.cn/" target="_blank" rel="noopener noreferrer">
+    <a href="/nsfcproject">
       <img src="/images/funding/nsfc.png" alt="National Natural Science Foundation of China (NSFC) Logo" style="height: 70px; max-width: 100%; object-fit: contain; margin-bottom: 5px;">
     </a>
-    <p style="font-size: 0.9em; margin-top: 0;">NSFC<br><a href="/nsfcproject" style="font-size: 0.9em;">重点项目</a></p>
+    <p style="font-size: 0.9em; margin-top: 0;">NSFC</p>
   </div>
   <div style="text-align: center; flex: 1; min-width: 250px; margin: 10px;">
     <div style="display: flex; justify-content: space-around; align-items: center;">
