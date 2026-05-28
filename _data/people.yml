@@ -36,10 +36,6 @@ students:
     role: Master Student
     avatar: /assets/img/authors/sujin-kang.jpg
     homepage: https://5ujinkang.github.io
-  - name: Chuandong Li
-    slug: chuandong-li
-    role: Ph.D Student
-    avatar: /assets/img/authors/chuandong-li.jpg
   - name: Liujia Li
     slug: liujia-li
     role: Ph.D Student
@@ -78,11 +74,6 @@ students:
     slug: xiran-yang
     role: Ph.D Student
     avatar: /assets/img/authors/xiran-yang.jpg
-  - name: Zehua Yang
-    slug: zehua-yang
-    display_name: Potato Yang
-    role: Ph.D Student
-    avatar: /assets/img/authors/zehua-yang.jpg
   - name: Yiming Yao
     slug: yiming-yao
     role: Ph.D Student
@@ -126,6 +117,15 @@ administration:
     avatar: /assets/img/authors/ju-zheng.jpg
 
 alumni:
+  - name: Chuandong Li
+    slug: chuandong-li
+    role: Ph.D
+    avatar: /assets/img/authors/chuandong-li.jpg
+  - name: Zehua Yang
+    slug: zehua-yang
+    display_name: Potato Yang
+    role: Ph.D
+    avatar: /assets/img/authors/zehua-yang.jpg
   - name: Zhisheng Ye
     slug: zhisheng-ye
     role: Ph.D
