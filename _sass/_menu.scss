@@ -48,7 +48,7 @@ aside.sidebar {
   h2 {
     margin: 0 rem(20px) 0;
     @include mainFont(400);
-    font-family: "Persona5", "Titillium Web", "Helvetica Neue", Helvetica, sans-serif;
+    font-family: "RobotRoc", "Titillium Web", "Helvetica Neue", Helvetica, sans-serif;
     font-size: rem(28px);
     color: $primaryDark;
     border-bottom: 1px solid $primaryDark;
@@ -78,7 +78,7 @@ aside.sidebar {
           padding: rem(15px) rem(20px);
           text-decoration: none;
           @include mainFont(300);
-          font-family: "Persona5", "Titillium Web", "Helvetica Neue", Helvetica, sans-serif;
+          font-family: "RobotRoc", "Titillium Web", "Helvetica Neue", Helvetica, sans-serif;
           font-size: rem(26px);
           color: $primaryDark;
 
