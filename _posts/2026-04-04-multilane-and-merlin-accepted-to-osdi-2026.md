@@ -7,7 +7,7 @@ tags:
   - publications
   - awards
 description: "Multilane and Merlin are accepted to OSDI 2026. Congratulations to Kang Hu, Liujia Li and all."
-image: /assets/img/home-banner.png
+image: /assets/img/interrupts/osdi-2026-cover.jpg
 ---
 
 Multilane and Merlin are accepted to OSDI 2026. Congratulations to Kang Hu, Liujia Li and all.

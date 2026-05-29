@@ -8,7 +8,7 @@ tags:
   - people
   - lab
 description: "We are excited to welcome Liujia Li, Xiran Yang, Yiming Yao and Yangqing Zeng to the TELOS Systems Lab as new students."
-image: /assets/img/home-banner.png
+image: /assets/img/interrupts/new-students-2022.jpg
 ---
 
 We are excited to welcome Liujia Li, Xiran Yang, Yiming Yao and Yangqing Zeng to the TELOS Systems Lab as new students.

@@ -7,7 +7,7 @@ tags:
   - publications
   - awards
 description: "Pivot is accepted to HPCA 2025. Congratulations to Liren and all."
-image: /assets/img/home-banner.png
+image: /assets/img/interrupts/hpca-2025-cover.jpg
 ---
 
 Pivot is accepted to HPCA 2025. Congratulations to Liren and all.

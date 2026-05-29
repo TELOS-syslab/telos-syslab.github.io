@@ -7,7 +7,7 @@ tags:
   - publications
   - awards
 description: "Aeolia and CortenMM are accepted to SOSP 2025. Congratulations to Chuandong, Junyang and all."
-image: /assets/img/home-banner.png
+image: /assets/img/interrupts/sosp-2025-cover.jpg
 ---
 
 Aeolia and CortenMM are accepted to SOSP 2025. Congratulations to Chuandong, Junyang and all.
