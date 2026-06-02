@@ -7,7 +7,7 @@ type: landing
 sections:
   - block: contact
     content:
-      title: NUMA 0
+      title: NUMA Node 0
       email: contact@telos.top
       address:
         street: 5 Yiheyuan Rd
@@ -27,7 +27,7 @@ sections:
 
   - block: contact_v2
     content:
-      title: NUMA 1
+      title: NUMA Node 1
       address:
         street: New Changping Campus, Shenniu Rd
         city: Machikou, Changping District, Beijing

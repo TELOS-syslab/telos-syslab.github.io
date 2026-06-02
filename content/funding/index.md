@@ -38,5 +38,3 @@ Our lab is grateful for the support from our funding partners and collaborators:
     <p style="font-size: 0.9em; margin-top: 0;">Huawei</p>
   </div>
 </div>
-
-We also acknowledge funding from various other projects and sources. If you are interested in collaborating or supporting our research, please [get in touch](/contact/).
