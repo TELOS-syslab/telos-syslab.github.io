@@ -6,6 +6,20 @@
 }
 
 @font-face {
+  font-family: "Honfleur";
+  src: url("/assets/fonts/Honfleur-Heavy.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Honfleur";
+  src: url("/assets/fonts/Honfleur-HeavyItalic.otf") format("opentype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
   font-family: "Persona5";
   src: url("/assets/fonts/Persona5MenuFontPrototype-Regular.ttf") format("truetype");
   font-weight: normal;
