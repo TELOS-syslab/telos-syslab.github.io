@@ -24,21 +24,23 @@
 }
 
 .post-content h1 {
-  font-family: "Honfleur", sans-serif;
+  font-family: "Akira", sans-serif;
+  font-size: 0.8em;
 }
 
 .post-content h2,
 .post-content h3 {
-  font-family: "Honfleur", sans-serif;
+  font-family: "Akira", sans-serif;
+  font-size: 0.8em;
 }
 
 .title-category {
-  font-size: rem(32px);
+  font-size: rem(26px);
   margin: 0 0 rem(40px);
   padding: 0 rem(23px);
   text-transform: lowercase;
   color: #fff;
-  font-family: "Honfleur", sans-serif;
+  font-family: "Akira", sans-serif;
 }
 
 .box-item {
@@ -107,9 +109,9 @@
     line-height: rem(36px);
     text-transform: uppercase;
     font-weight: bold;
-    font-size: rem(18px);
+    font-size: rem(14px);
     padding: 0 rem(15px);
-    font-family: "Honfleur", sans-serif;
+    font-family: "Akira", sans-serif;
 
     a {
       color: $accentDark;
