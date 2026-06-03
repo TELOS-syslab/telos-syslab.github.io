@@ -165,3 +165,11 @@ Post body in Markdown.
 ```
 
 The filename date (`YYYY-MM-DD`) controls display order — newest appears first.
+
+---
+
+## 6. Design Artifact
+
+The page layout is designed in Figma:
+
+[Telos Webpage Layout](https://www.figma.com/design/5N4b4F3sZ1YAZAoCOHW9JU/Telos-Webpage-Layout?node-id=0-1&t=AK1xwDRJYF995RPM-1)
