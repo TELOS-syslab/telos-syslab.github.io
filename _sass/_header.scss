@@ -11,16 +11,16 @@ body {
   width: 100%;
   z-index: 10;
   transition: top 0.5s, left 0.3s ease, background-color 0.5s, box-shadow 0.5s;
-  
+
   @include media(">=sm") {
-    padding: rem(15px) rem(0px);
+    padding: rem(14px) rem(0px);
   }
 
   .logo {
     display: inline-block;
     margin: 0;
-    height: rem(32px);
-    line-height: rem(32px);
+    height: rem(50px);
+    line-height: rem(50px);
 
     a {
       display: block;
