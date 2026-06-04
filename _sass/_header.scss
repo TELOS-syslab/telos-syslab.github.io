@@ -115,18 +115,8 @@ body.main-page {
 
 body.light:not(.main-page) {
   .bar-header {
-    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1);
-    background-color: rgba(255, 255, 255, 0.95);
-
-    .icon-search,
-    .icon-menu {
-      fill: $primaryDark;
-    }
-
-    .logo a,
-    .version {
-      color: $primaryDark;
-    }
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.95);
   }
 }
 

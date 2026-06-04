@@ -95,8 +95,18 @@ permalink: /publications/
 .pub-links a:hover, .abstract-toggle:hover { border-color: #A72323; color: #A72323; }
 </style>
 
+<style>
+.pub-artifact-btn { display: inline-flex; align-items: center; gap: 0.5rem; color: #fff !important; text-decoration: none; font-size: 0.9rem; font-weight: 600; padding: 0.45rem 1rem; border-radius: 6px; background: #24292e; transition: background 0.2s; }
+.pub-artifact-btn:hover { background: #A72323; }
+</style>
+
 <div class="pub-wrapper">
 <h1>Publications</h1>
+<div style="text-align: center; margin-top: -1.5rem; margin-bottom: 2rem;">
+  <a href="https://github.com/TELOS-syslab" target="_blank" class="pub-artifact-btn">
+    <i class="fab fa-github" style="font-size:1.1rem;"></i> Research Artifacts
+  </a>
+</div>
 
 {% assign sorted_pubs = site.data.publications | sort: "year" | reverse %}
 {% assign years = sorted_pubs | map: "year" | uniq %}
