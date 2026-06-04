@@ -59,13 +59,13 @@ body {
   .icon-menu {
     float: left;
     cursor: pointer;
-    margin: rem(5px) rem(20px) rem(5px) 0;
+    margin: rem(5px) rem(8px) rem(5px) 0;
     width: rem(20px);
     height: rem(20px);
     fill: $accentDark;
 
     @include media(">=sm") {
-      margin: rem(5px) rem(20px) rem(5px) rem(25px);
+      margin: rem(5px) rem(8px) rem(5px) rem(25px);
     }
   }
 
