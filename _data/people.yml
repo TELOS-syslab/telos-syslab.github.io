@@ -186,6 +186,11 @@ collaborators:
     role: Professor
     avatar: /assets/img/authors/zhenlin-wang.jpg
     homepage: https://pages.mtu.edu/~zlwang/
+  - name: Tao Xie
+    slug: tao-xie
+    role: Professor
+    avatar: /assets/img/authors/tao-xie.jpg
+    homepage: https://taoxiease.github.io/
   - name: Jie Zhang
     slug: jie-zhang
     role: Professor
