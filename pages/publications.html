@@ -108,15 +108,15 @@ permalink: /publications/
   </a>
 </div>
 
-{% assign sorted_pubs = site.data.publications | sort: "year" | reverse %}
-{% assign years = sorted_pubs | map: "year" | uniq %}
+{% assign pubs_by_year = site.data.publications | sort: "year" | reverse %}
+{% assign years = pubs_by_year | map: "year" | uniq %}
 
 {% for year in years %}
   <div class="pub-year-group">
     <div class="pub-year-heading">{{ year }}</div>
     <table class="pub-table">
       <tbody>
-      {% for pub in sorted_pubs %}
+      {% for pub in site.data.publications %}
         {% if pub.year == year %}
         <tr{% if pub.award == "Best Paper Award" %} class="pub-row-best-paper"{% endif %}>
           <td class="pub-venue-cell">
