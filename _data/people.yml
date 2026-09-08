@@ -22,6 +22,11 @@ students:
     slug: tianhao-fu
     role: Ph.D Student
     avatar: /assets/img/authors/tianhao-fu.jpg
+  - name: Jinhao Guo
+    slug: jinhao-guo
+    role: Ph.D Student
+    avatar: /assets/img/authors/jinhao-guo.jpg
+    homepage: https://fexuile.github.io/
   - name: Jiaxun Han
     slug: jiaxun-han
     role: Ph.D Student
