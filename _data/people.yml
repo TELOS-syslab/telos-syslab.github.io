@@ -95,6 +95,10 @@ students:
     slug: yangqing-zeng
     role: Ph.D Student
     avatar: /assets/img/authors/yangqing-zeng.jpg
+  - name: Junbin Zhang
+    slug: junbin-zhang
+    role: Ph.D Student
+    avatar: /assets/img/authors/junbin-zhang.jpg
   - name: Junyang Zhang
     slug: junyang-zhang
     role: Ph.D Student
