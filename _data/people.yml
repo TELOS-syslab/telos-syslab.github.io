@@ -55,6 +55,7 @@ students:
     slug: meijun-lu
     role: Ph.D Student
     avatar: /assets/img/authors/meijun-lu.jpg   
+    homepage: https://abyss-lu.github.io
   - name: Chenxiang Ma
     slug: chenxiang-ma
     role: Ph.D Student
