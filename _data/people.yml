@@ -51,6 +51,10 @@ students:
     role: Ph.D Student
     avatar: /assets/img/authors/liheng-luo.jpg
     homepage: https://ffoul.top
+  - name: Meijun Lu
+    slug: meijun-lu
+    role: Ph.D Student
+    avatar: /assets/img/authors/meijun-lu.jpg   
   - name: Chenxiang Ma
     slug: chenxiang-ma
     role: Ph.D Student
