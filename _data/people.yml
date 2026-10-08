@@ -72,6 +72,10 @@ students:
     slug: zhe-tang
     role: Ph.D Student
     avatar: /assets/img/authors/zhe-tang.jpg
+  - name: Dayu Wang
+    slug: dayu-wang
+    role: Ph.D Student
+    avatar: /assets/img/authors/dayu-wang.jpg
   - name: Jianyu Wu
     slug: jianyu-wu
     role: Ph.D Student
