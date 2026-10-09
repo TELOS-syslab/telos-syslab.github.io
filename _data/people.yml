@@ -76,6 +76,10 @@ students:
     slug: dayu-wang
     role: Ph.D Student
     avatar: /assets/img/authors/dayu-wang.jpg
+  - name: Rui Qu
+    slug: rui-Qu
+    role: Ph.D Student
+    avatar: /assets/img/authors/rui-qu.jpg
   - name: Jianyu Wu
     slug: jianyu-wu
     role: Ph.D Student
