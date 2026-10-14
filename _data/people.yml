@@ -96,6 +96,7 @@ students:
     slug: yiming-yao
     role: Ph.D Student
     avatar: /assets/img/authors/yiming-yao.jpg
+    homepage: https://artistfish.github.io/
   - name: Ran Yi
     slug: ran-yi
     role: Ph.D Student
