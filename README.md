@@ -168,7 +168,48 @@ The filename date (`YYYY-MM-DD`) controls display order — newest appears first
 
 ---
 
-## 6. Design Artifact
+## 6. Course Materials
+
+Store course PDFs and PowerPoint slides (`.pptx`) in `assets/courses/<course>/<semester>/`. Course files belong
+with the site's static assets; `content/` contains legacy Hugo content.
+
+```text
+assets/courses/
+└── ics/
+    └── fall26/
+        └── ICS01-overview-20260907.pptx
+```
+
+The **Courses** menu opens `/courses/`. Select a course and semester to browse
+files or download them. PDF filenames open in the browser; PPTX filenames
+download the slides for viewing in PowerPoint. Breadcrumbs and `../` navigate
+to parent directories.
+
+| Source | Website URL |
+|--------|-------------|
+| `assets/courses/` | `/courses/` |
+| `assets/courses/ics/` | `/courses/ics/` |
+| `assets/courses/ics/fall26/` | `/courses/ics/fall26/` |
+| `assets/courses/ics/fall26/<file>.pdf` | `/assets/courses/ics/fall26/<file>.pdf` |
+| `assets/courses/ics/fall26/<file>.pptx` | `/assets/courses/ics/fall26/<file>.pptx` |
+
+To add another course, create a sibling directory such as
+`assets/courses/os/fall26/`, add PDF or PPTX files, and rebuild. The generator in
+`_plugins/course_directory.rb` automatically creates the course, semester, and
+nested directory pages; no navigation or file list edits are needed. Only
+published PDF and PPTX files appear in the index (extensions are case-insensitive).
+Directories without supported files are omitted,
+except for the course index at `/courses/`, which always exists.
+
+The earlier `/ics/` and `/ics/fall26/` directory URLs redirect to their new
+`/courses/ics/` locations. File links now use `/assets/courses/`; the former
+`/content/ics/` PDF URLs are no longer used, and course files are not duplicated.
+
+Preview with `bundle exec jekyll serve` and open `http://localhost:4000/courses/`.
+
+---
+
+## 7. Design Artifact
 
 The page layout is designed in Figma:
 

@@ -1,0 +1,79 @@
+.directory-index {
+  box-sizing: border-box;
+  max-width: 1120px;
+  min-height: calc(100vh - 240px);
+  margin: 0 auto;
+  padding: 130px 32px 72px;
+  color: #333;
+  font-family: "Titillium Web", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.directory-index a {
+  color: #a72323;
+  text-decoration: none;
+}
+
+.directory-index a:hover { text-decoration: underline; }
+.directory-index a:focus-visible { outline: 2px solid #a72323; outline-offset: 4px; }
+
+.directory-breadcrumbs {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  font-size: 14px;
+  overflow-wrap: anywhere;
+}
+
+.directory-breadcrumbs > span { color: #666; }
+.directory-heading { margin: 42px 0 30px; }
+.directory-eyebrow { color: #a72323; font-size: 12px; font-weight: 700; letter-spacing: 0.12em; }
+
+.directory-heading h1 {
+  margin: 12px 0;
+  color: #222;
+  font: 600 clamp(22px, 3vw, 32px)/1.4 ui-monospace, SFMono-Regular, Consolas, monospace;
+  overflow-wrap: anywhere;
+}
+
+.directory-heading > p:last-child { color: #666; font-size: 16px; line-height: 1.6; }
+.directory-table-wrapper { border-top: 2px solid #333; }
+.directory-table { width: 100%; border-collapse: collapse; font-size: 14px; }
+.directory-table th { padding: 14px 12px; background: #f7f7f7; font-weight: 600; text-align: left; }
+.directory-table td { padding: 20px 12px; }
+.directory-table tr { border-bottom: 1px solid #e4e4e4; }
+.directory-table tbody tr:hover { background: #fcf8f8; }
+
+.directory-name {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 12px;
+  font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+
+.directory-icon { flex-shrink: 0; color: #888; width: 14px; text-align: center; }
+.directory-parent-label { margin-left: 8px; color: #777; font: 14px "Titillium Web", sans-serif; }
+.directory-type { width: 90px; color: #666; }
+.directory-table .directory-size { width: 100px; text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.directory-table .directory-action { width: 100px; text-align: right; white-space: nowrap; }
+.directory-action a { display: inline-block; padding: 6px 0; }
+.directory-count { margin-top: 18px; color: #777; font-size: 13px; }
+.directory-empty { padding: 24px 12px; color: #666; }
+
+@media (max-width: 600px) {
+  /* The shared logo has an inline fixed height; fit it on narrow index pages. */
+  .bar-header .logo img { max-width: min(400px, calc(100vw - 110px)); height: auto !important; }
+  .directory-index { padding: 105px 18px 48px; }
+  .directory-heading { margin-top: 32px; }
+  .directory-table { table-layout: fixed; font-size: 12px; }
+  .directory-table th, .directory-table td { padding: 14px 6px; }
+  .directory-type { display: none; }
+  .directory-table .directory-size { width: 64px; }
+  .directory-table .directory-action { width: 66px; }
+  .directory-name { gap: 6px; }
+  .directory-parent-label { display: none; }
+  .directory-action a { min-height: 32px; line-height: 32px; }
+  .directory-action a span { font-size: 11px; }
+}

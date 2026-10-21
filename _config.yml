@@ -18,6 +18,8 @@ menu:
     url: /publications
   - title: Interrupts
     url: /interrupts
+  - title: Courses
+    url: /courses/
   - title: Physical address
     url: /contact
   - title: Power supply

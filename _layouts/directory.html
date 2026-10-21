@@ -1,0 +1,69 @@
+---
+layout: default
+---
+<link rel="stylesheet" href="{{ '/assets/css/directory.css' | relative_url }}">
+
+<main class="directory-index">
+  <nav class="directory-breadcrumbs" aria-label="Breadcrumb">
+    <a href="{{ '/' | relative_url }}">TELOS</a>
+    {% for crumb in page.breadcrumbs %}
+      <span aria-hidden="true">/</span>
+      {% if forloop.last %}
+        <span aria-current="page">{{ crumb.name | escape }}</span>
+      {% else %}
+        <a href="{{ crumb.url | relative_url | escape }}">{{ crumb.name | escape }}</a>
+      {% endif %}
+    {% endfor %}
+  </nav>
+
+  <header class="directory-heading">
+    <p class="directory-eyebrow">TELOS / COURSE MATERIALS</p>
+    <h1>Index of {{ page.directory_path | escape }}</h1>
+    <p>Read PDFs in your browser, or download PPTX slides to open in PowerPoint.</p>
+  </header>
+
+  <div class="directory-table-wrapper">
+    <table class="directory-table" aria-label="Contents of {{ page.directory_path | escape }}">
+      <thead>
+        <tr>
+          <th scope="col">Name</th>
+          <th scope="col" class="directory-type">Type</th>
+          <th scope="col" class="directory-size">Size</th>
+          <th scope="col" class="directory-action">Download</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="directory-name" href="{{ page.parent_url | relative_url | escape }}"><span class="directory-icon" aria-hidden="true">↰</span><span>../ <span class="directory-parent-label">Parent directory</span></span></a></td>
+          <td class="directory-type">Directory</td>
+          <td class="directory-size">—</td>
+          <td class="directory-action"></td>
+        </tr>
+        {% for entry in page.entries %}
+          <tr>
+            <td>
+              <a class="directory-name" href="{{ entry.url | relative_url | escape }}"{% if entry.type == 'PPTX' %} download="{{ entry.name | escape }}"{% endif %}>
+                <span class="directory-icon" aria-hidden="true">{% if entry.type == 'Directory' %}▸{% else %}↳{% endif %}</span>
+                <span>{{ entry.name | escape }}</span>
+              </a>
+            </td>
+            <td class="directory-type">{{ entry.type }}</td>
+            <td class="directory-size">{{ entry.file_size | default: '—' }}</td>
+            <td class="directory-action">
+              {% if entry.type != 'Directory' %}
+                <a href="{{ entry.url | relative_url | escape }}" download="{{ entry.name | escape }}" aria-label="Download {{ entry.name | escape }}">↓ <span>Download</span></a>
+              {% endif %}
+            </td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    {% if page.entries.size == 0 %}
+      <p class="directory-empty">No PDF or PPTX files available yet.</p>
+    {% endif %}
+  </div>
+
+  {% assign folders = page.entries | where: 'type', 'Directory' | size %}
+  {% assign files = page.entries.size | minus: folders %}
+  <p class="directory-count">{{ folders }} {% if folders == 1 %}directory{% else %}directories{% endif %} · {{ files }} {% if files == 1 %}file{% else %}files{% endif %}</p>
+</main>

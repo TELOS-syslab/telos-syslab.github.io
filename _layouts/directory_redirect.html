@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="{{ site.language | default: 'en' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Course directory moved | {{ site.name | escape }}</title>
+    <meta name="robots" content="noindex">
+    <link rel="canonical" href="{{ page.redirect_to | absolute_url | escape }}">
+    <meta http-equiv="refresh" content="0; url={{ page.redirect_to | relative_url | escape }}">
+  </head>
+  <body>
+    <p>This directory has moved to <a href="{{ page.redirect_to | relative_url | escape }}">{{ page.redirect_to | escape }}</a>.</p>
+  </body>
+</html>
