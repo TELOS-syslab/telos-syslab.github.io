@@ -36,7 +36,6 @@
   overflow-wrap: anywhere;
 }
 
-.directory-heading > p:last-child { color: #666; font-size: 16px; line-height: 1.6; }
 .directory-table-wrapper { border-top: 2px solid #333; }
 .directory-table { width: 100%; border-collapse: collapse; font-size: 14px; }
 .directory-table th { padding: 14px 12px; background: #f7f7f7; font-weight: 600; text-align: left; }

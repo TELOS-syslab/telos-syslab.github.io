@@ -180,8 +180,9 @@ assets/courses/
         └── ICS01-overview-20260907.pptx
 ```
 
-The **Courses** menu opens `/courses/`. Select a course and semester to browse
-files or download them. PDF filenames open in the browser; PPTX filenames
+Access `/courses/` or a course URL directly; course materials are not listed in
+the main navigation. Select a course and semester to browse files or download
+them. PDF filenames open in the browser; PPTX filenames
 download the slides for viewing in PowerPoint. Breadcrumbs and `../` navigate
 to parent directories.
 
